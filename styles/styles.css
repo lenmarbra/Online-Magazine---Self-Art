@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root{
+  --main-bg-color: #fbf9f9;
+  --main-txt-color: #1a1a1a;
+  --second-txt-color: #548a89;
+}
+
+/* -----Fonts & Sizes------ */
+
+/* magazine-title */
+h1{
+  font-family: 'montserrat', 'raleway bold', 'helvetica bold', sans-serif;
+  font-size: 140px;
+  font-weight: 800;
+}
+
+/* article-titles */
+h2{
+  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
+  font-size: 70px;
+}
+
+/* sub-titles */
+h3{
+  font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  color: var(--second-txt-color-color);
+}
+
+/* paragraphs */
+p{
+  font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
+}
+
+/* captions */
+.captions {
+  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
+  font-size: 23px;
+  color: var(--second-txt-color-color);
+}
+
+.quote{
+  font-size: 24px;
+}
