@@ -4,7 +4,7 @@
 }
 
 :root{
-  --main-bg-color: #fbf9f9;
+  --main-bg-color: #E5E3E3;
   --main-txt-color: #1a1a1a;
   --second-txt-color: #548a89;
 }
@@ -14,14 +14,17 @@
 /* magazine-title */
 h1{
   font-family: 'montserrat', 'raleway bold', 'helvetica bold', sans-serif;
-  font-size: 140px;
-  font-weight: 800;
+  font-size: 120px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 /* article-titles */
 h2{
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
   font-size: 70px;
+  font-weight: 400;
 }
 
 /* sub-titles */
@@ -34,15 +37,107 @@ h3{
 /* paragraphs */
 p{
   font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  line-height: 1.6;
+  color: var(--second-txt-color-color);
 }
 
 /* captions */
 .captions {
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  font-size: 23px;
+  font-size: 18px;
   color: var(--second-txt-color-color);
 }
 
-.quote{
-  font-size: 24px;
+a{
+  cursor: -moz-grab;
+  margin: 0;
+}
+
+body{
+  min-height: 140em;
+}
+
+
+/* ------Navigation------ */
+
+nav{
+  margin: 2.5em 4em 1.5em auto;
+  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
+  position: absolute;
+  right: 1em; 
+}
+
+nav a{
+  display: inline;
+  margin: 1.5em;
+  padding: 2em 0;
+  text-decoration: none;
+  color: var(--main-txt-color);  
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+
+
+/* ------Top Area------ */
+
+.title{
+  position: absolute;
+  top: 42%;
+  left: 24%;
+}
+
+.line{
+  height: 0.6em;
+  width: 51em; 
+  background-color: var(--main-txt-color);
+  position: absolute;
+  top: 59%;
+  left: 21%;
+}
+
+.circle{
+  height: 9em;
+  width: 9em;
+  border-radius: 50%;
+  background-color: var(--main-txt-color);
+  position: absolute;
+  top: 60%;
+  left: 45%;
+}
+
+.thumb{
+  background-image: url(/assets/thumb.png);
+  width: 1197px;
+  height: 1034px;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 5em;
+  left: 15em;
+  z-index: -1;
+}
+
+/* ------Articles------ */
+
+#article-section{
+  height: 70em;
+  width: 65.5em;
+  position: absolute;
+  top: 60em;
+  left: 12em;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.6em;
+}
+
+#article-section img{
+  display: inline-block;
+  margin: 0.25em 1em;
+  box-shadow: 2px 6px 12px #b3b0b0;
+}
+
+img:hover{
+  background-color: rgb(253, 252, 252);
+  opacity: 0.95;
 }

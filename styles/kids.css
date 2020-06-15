@@ -1,0 +1,47 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#content{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: minmax(auto, 100px); 
+  grid-gap: 2em;
+  /* max-width: 1110px; */
+  background-color: #fff;
+   margin: 0 3em;
+  padding-left: 3.5em;
+  grid-template-areas:
+  ". . . . ."
+  ". . . . ."
+  "text text text img1 img1"
+  "text text text img1 img1"
+  "text text text img1 img1"
+  "img2 img2 text text text"
+  "img2 img2 text text text"
+  "img2 img2 text text text"
+  ". . . . ."
+}
+ 
+
+p{
+  grid-area: text;
+}
+
+.image-area-1{
+  grid-area: img1;
+  background-image: url(/assets/smallImage_magis.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .image-area-2{
+  grid-area: img2;
+  background-image: url(/assets/smallImage_magis.png);
+  background-size: 40em;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
