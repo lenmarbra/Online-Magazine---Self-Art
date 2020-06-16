@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/styles.css">
   <title>Art by Self - Online Magazine</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
 </head>
 
-<header>
+<header id="top-of-page">
   <nav>
     <a href="#">Search</a> 
     <a href="#">Articles</a> 
@@ -23,7 +24,8 @@
 <div class="line"></div>
 <div class="circle"></div>
 <!-- <div class="thumb"></div> -->
-
+<div class="green-area"></div>
+gsap.to("line", {duration: 2, x:300});
 
 
 <!-- Table of Content -->
@@ -55,11 +57,9 @@
   <a href="#">
       <img srcset="/assets/KidsShapes.png" alt="Article" media="/maxwidth: 300px /maxheight: 300px"> 
   </a>
-
-
-
 </section>
 
+<a href="#top-of-page"><h4 class="top">Back to Top</h4></a>
 
 
 </body>
@@ -67,6 +67,8 @@
 
 
 
-<footer></footer>
+<footer>
+  <div class="black-area"></div>
+</footer>
 
 </html>
