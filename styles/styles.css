@@ -34,10 +34,11 @@ h3{
   color: var(--second-txt-color-color);
 }
 
-/* CTA -> Back to top */
+/* CTA -> Back to top + Articles */
 h4{
-  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  font-size: 40px;
+  font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 500;
   color: var(--second-txt-color-color);
 }
 
@@ -122,10 +123,10 @@ nav a{
 
 .green-area{
   width: 100%;
-  height: 50em;
+  height: 85em;
   background-color: #b7c5c5;
   position: relative;
-  top: 47.05em;
+  top: 48.96em;
   z-index: -1;
   box-sizing: border-box;
   padding: 30px; 
@@ -164,17 +165,24 @@ nav a{
 }
 
 .thumb{
-  background-image: url(/assets/thumb.png);
-  width: 1197px;
+  background-image: url(/assets/bg/bg_colors.png);
+  width: 100%;
   height: 1034px;
   background-repeat: no-repeat;
   position: fixed;
-  top: 5em;
-  left: 15em;
-  z-index: -1;
+  top: 0;
+  left: 0;
+  z-index: -6;
 }
 
 /* ------Articles------ */
+
+#title-article-area{
+  position: absolute;
+  top: 30em;
+  left: 7.8em;
+  z-index: 4;
+}
 
 #article-section{
   height: 70em;
@@ -203,14 +211,18 @@ a{
   color: var(--main-txt-color)
 }
 
-.top{
-  text-decoration: underline;
+.quote{
+  width: 13em;
   position: absolute;
-  top: 56em;
-  left: 41.2%;
-  z-index: 4;
+  top: 41.5em;
+  left: 20%;
+  font-size: 60px;
+  line-height: 1.2;
 }
 
+.quote span{
+  font-size: 30px;
+}
 
 
 /* -------Footer------- */
