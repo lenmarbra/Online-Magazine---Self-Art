@@ -72,8 +72,8 @@ body{
 
 .logo{
   position: fixed;
-  top: 3em;
-  left: 4em;
+  top: 2.4em;
+  left: 5em;
   height: 6em;
 }
 .logo:hover{
@@ -103,17 +103,17 @@ nav a{
 
 .title{
   position: fixed;
-  top: 39%;
-  left: 20%;
+  top: 41%;
+  left: 19.7%;
   z-index: -5;
 }
 
 .line{
-  height: 0.8em;
+  height: 0.4em;
   width: 60em; 
   background-color: var(--main-txt-color);
   position: fixed;
-  top: 60%;
+  top: 60.8%;
   left: 16%;
   z-index: -4;
 }
@@ -187,7 +187,7 @@ nav a{
   z-index: -6;
 }
 
-/* ------Articles------ */
+/* ------Articles area------ */
 
 #title-article-area{
   position: absolute;
@@ -224,12 +224,12 @@ a{
 }
 
 .quote{
-  width: 13em;
+  width: 18em;
   position: absolute;
-  top: 41.5em;
-  left: 25%;
-  font-size: 60px;
-  line-height: 1.2;
+  top: 64em;
+  left: 28%;
+  font-size: 40px;
+  line-height: 1.5;
 }
 
 .quote span{
@@ -281,7 +281,7 @@ a{
 .nav-footer ul li a{
   text-decoration: none;
   color: var(--main-bg-color);  
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
   text-transform: uppercase;
 
@@ -313,11 +313,11 @@ a{
   color: var(--main-bg-color);
   font-size: 20px;
   letter-spacing: 0.8pt;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.5em;
 }
 
 .subscr-box{
-  width: 20em;
+  width: 22em;
   height: 3em;
   border: solid 1px white;
   z-index: 7;
