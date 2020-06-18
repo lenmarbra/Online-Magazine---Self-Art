@@ -62,7 +62,7 @@ gsap.registerPlugin(ScrollTrigger)
 
       gsap.to(".circle", {x: 880, y: 142, duration: 3, scrollTrigger: {
         trigger: ".circle",
-        markers: true,
+        // markers: true,
         start: "top 60%",
         end: "bottom -10%",
         toggleActions:"restart pause reverse reset"
@@ -70,14 +70,14 @@ gsap.registerPlugin(ScrollTrigger)
 
       gsap.from(".logo", {opacity: 0, duration: 2, scrollTrigger: {
         trigger: ".logo",
-        markers: true,
+        // markers: true,
         start: "top -100"
       }});
 
       gsap.to("h1, .line", {opacity: 0, duration: 2, scrollTrigger: {
         trigger: "h1, .line",
         start: "top 0%",
-        toggleActions:"restart pause reverse reset"
+        // toggleActions:"restart pause reverse reset"
       }
       });
 
