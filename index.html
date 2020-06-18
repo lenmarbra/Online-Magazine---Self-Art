@@ -71,16 +71,14 @@ gsap.registerPlugin(ScrollTrigger)
       gsap.from(".logo", {opacity: 0, duration: 2, scrollTrigger: {
         trigger: ".logo",
         markers: true,
-        start: "top -40%"
+        start: "top -100"
       }});
 
       gsap.to("h1, .line", {opacity: 0, duration: 2, scrollTrigger: {
         trigger: "h1, .line",
-        start: "top -50%",
+        start: "top 0%",
         toggleActions:"restart pause reverse reset"
       }
-
-
       });
 
         //events: onEnter onLeave onEnterBack onLeaveBack
