@@ -73,7 +73,7 @@ body{
 .logo{
   position: fixed;
   top: 2.4em;
-  left: 5em;
+  left: 5.2em;
   height: 6em;
 }
 .logo:hover{
@@ -212,10 +212,9 @@ nav a{
   margin: 0.25em 1em;
   box-shadow: 2px 6px 12px #b3b0b0;
 }
-
 img:hover{
   background-color: rgb(253, 252, 252);
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 a{
@@ -274,7 +273,7 @@ a{
 
 
 .nav-footer li{
-  margin: 1em 1em 0 0;
+  margin: 1em 2em 0 0;
   list-style: none;
 }
 
