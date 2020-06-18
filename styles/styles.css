@@ -14,7 +14,7 @@
 /* magazine-title */
 h1{
   font-family: 'montserrat', 'raleway bold', 'helvetica bold', sans-serif;
-  font-size: 120px;
+  font-size: 140px;
   font-weight: 600;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -31,6 +31,14 @@ h2{
 h3{
   font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
   font-size: 40px;
+  color: var(--second-txt-color-color);
+}
+
+/* CTA -> Back to top + Articles */
+h4{
+  font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 500;
   color: var(--second-txt-color-color);
 }
 
@@ -56,13 +64,24 @@ a{
 
 body{
   min-height: 140em;
+  overflow-x: hidden;
 }
 
 
 /* ------Navigation------ */
 
+.logo{
+  position: fixed;
+  top: 3em;
+  left: 3em;
+  height: 6em;
+}
+.logo:hover{
+  background-color: transparent;
+}
+
 nav{
-  margin: 2.5em 4em 1.5em auto;
+  margin: 2.5em 2em 1.5em auto;
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
   position: absolute;
   right: 1em; 
@@ -83,42 +102,99 @@ nav a{
 /* ------Top Area------ */
 
 .title{
-  position: absolute;
-  top: 42%;
-  left: 24%;
+  position: fixed;
+  top: 39%;
+  left: 20%;
+  z-index: -5;
 }
 
 .line{
-  height: 0.6em;
-  width: 51em; 
+  height: 0.8em;
+  width: 60em; 
   background-color: var(--main-txt-color);
-  position: absolute;
-  top: 59%;
-  left: 21%;
+  position: fixed;
+  top: 60%;
+  left: 16%;
+  z-index: -4;
 }
 
 .circle{
-  height: 9em;
-  width: 9em;
+  height: 11em;
+  width: 11em;
   border-radius: 50%;
-  background-color: var(--main-txt-color);
+  background-color: #1a1a1a;
   position: absolute;
-  top: 60%;
-  left: 45%;
+  top: 61.5%;
+  left: 44%;
+  z-index: -3;
 }
 
-.thumb{
-  background-image: url(/assets/thumb.png);
-  width: 1197px;
+/* ------Background Green------- */
+
+.green-area{
+  width: 100%;
+  height: 85em;
+  background-color: #b7c5c5;
+  position: relative;
+  top: 48.96em;
+  z-index: -1;
+  box-sizing: border-box;
+  padding: 30px; 
+  margin-bottom: 10em;
+}
+
+
+.green-area:before{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content:'';
+  background: inherit;
+  z-index: -2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transform: skewY(8deg);
+}
+
+.green-area:after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content:'';
+  background: inherit;
+  z-index: -2;
+  top: 2em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: top right;
+  transform: skewY(-8deg);
+}
+
+.bg-img{
+  background-image: url(/assets/bg/bg_colors.png);
+  width: 100%;
   height: 1034px;
   background-repeat: no-repeat;
+  /* background-size: 90%; 
+  opacity: 30%; */
   position: fixed;
-  top: 5em;
-  left: 15em;
-  z-index: -1;
+  top: 0;
+  left: 0;
+  z-index: -6;
 }
 
 /* ------Articles------ */
+
+#title-article-area{
+  position: absolute;
+  top: 30em;
+  left: 7.8em;
+  z-index: 4;
+}
 
 #article-section{
   height: 70em;
@@ -139,5 +215,50 @@ nav a{
 
 img:hover{
   background-color: rgb(253, 252, 252);
-  opacity: 0.95;
+  opacity: 0.75;
+}
+
+a{
+  text-decoration: none;
+  color: var(--main-txt-color)
+}
+
+.quote{
+  width: 13em;
+  position: absolute;
+  top: 41.5em;
+  left: 25%;
+  font-size: 60px;
+  line-height: 1.2;
+}
+
+.quote span{
+  font-size: 30px;
+}
+
+/* -------Footer------- */
+
+
+.black-area{
+  width: 100%;
+  height: 15em;
+  background-color: #1a1a1a;
+  position: relative;
+  top: 95em;
+  box-sizing: border-box;
+  padding: 30px; 
+}
+
+.black-area:before{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content:'';
+  background: inherit;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transform: skewY(6deg);
 }
