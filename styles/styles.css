@@ -262,22 +262,26 @@ a{
   transform: skewY(6deg);
 }
 
-ul{
-  list-style: none;
+.nav-footer{
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
   position: absolute;
-  left: 2.2em;
-  bottom: 4em;
+  left: 3em;
+  bottom: 5.75em;
+  display:flex;
+  justify-content: space-between;
+  z-index: 7;
 }
 
-ul li{
-  margin-top: 1em;
+
+.nav-footer li{
+  margin: 1em 1em 0 0;
+  list-style: none;
 }
 
-ul li a{
+.nav-footer ul li a{
   text-decoration: none;
   color: var(--main-bg-color);  
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 200;
   text-transform: uppercase;
 
@@ -285,8 +289,8 @@ ul li a{
 
 .social-icons{
   position: absolute;
-  top: 1em;
-  left: 38%;
+  top: 3.1em;
+  left: 36%;
   background-color: transparent;
 
 }
@@ -299,12 +303,22 @@ ul li a{
   background-color: transparent;
 }
 
+.subscribe{
+  position: absolute;
+  right: 6em;
+  bottom: 7em;
+}
+
+.subscribe p{
+  color: var(--main-bg-color);
+  font-size: 20px;
+  letter-spacing: 0.8pt;
+  margin-bottom: 0.3em;
+}
+
 .subscr-box{
-  top: 1em;
-  left: 30em;
-  width: 5em;
-  height: 2em;
-  border-color: E5E3E3;
-  background-color: #E5E3E3;
+  width: 20em;
+  height: 3em;
+  border: solid 1px white;
   z-index: 7;
 }
