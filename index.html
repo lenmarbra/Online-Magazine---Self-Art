@@ -64,7 +64,8 @@ gsap.registerPlugin(ScrollTrigger)
         trigger: ".circle",
         markers: true,
         start: "top 60%",
-        end: "bottom 60%",
+        end: "bottom -10%",
+        toggleActions:"restart pause reverse reset"
       }});
 
       gsap.from(".logo", {opacity: 0, duration: 2, scrollTrigger: {
@@ -75,7 +76,8 @@ gsap.registerPlugin(ScrollTrigger)
 
       gsap.to("h1, .line", {opacity: 0, duration: 2, scrollTrigger: {
         trigger: "h1, .line",
-        start: "top -50%"
+        start: "top -50%",
+        toggleActions:"restart pause reverse reset"
       }
 
 
