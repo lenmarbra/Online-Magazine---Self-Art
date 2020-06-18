@@ -73,7 +73,7 @@ body{
 .logo{
   position: fixed;
   top: 3em;
-  left: 3em;
+  left: 4em;
   height: 6em;
 }
 .logo:hover{
@@ -246,7 +246,6 @@ a{
   position: relative;
   top: 95em;
   box-sizing: border-box;
-  padding: 30px; 
 }
 
 .black-area:before{
@@ -261,4 +260,51 @@ a{
   left: 0;
   transform-origin: bottom right;
   transform: skewY(6deg);
+}
+
+ul{
+  list-style: none;
+  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
+  position: absolute;
+  left: 2.2em;
+  bottom: 4em;
+}
+
+ul li{
+  margin-top: 1em;
+}
+
+ul li a{
+  text-decoration: none;
+  color: var(--main-bg-color);  
+  font-size: 23px;
+  font-weight: 200;
+  text-transform: uppercase;
+
+}
+
+.social-icons{
+  position: absolute;
+  top: 1em;
+  left: 38%;
+  background-color: transparent;
+
+}
+.social-icons a{
+  padding: 2em;
+  background-color: transparent;
+}
+
+.social-icons img:hover{
+  background-color: transparent;
+}
+
+.subscr-box{
+  top: 1em;
+  left: 30em;
+  width: 5em;
+  height: 2em;
+  border-color: E5E3E3;
+  background-color: #E5E3E3;
+  z-index: 7;
 }
