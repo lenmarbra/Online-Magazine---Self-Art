@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-share">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="share" clip-path="url(#clip-share)">
+    <g id="Group_389" data-name="Group 389" transform="translate(-1846 -479.5)">
+      <path id="Path_25248" data-name="Path 25248" d="M20,0A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(1846 479.5)" fill="#578e8e"/>
+      <g id="Group_390" data-name="Group 390">
+        <g id="Group_296" data-name="Group 296" transform="translate(1856.999 490.5)">
+          <g id="Group_140" data-name="Group 140" transform="translate(0 0)">
+            <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(10.314)" fill="#151515" stroke="#151515" stroke-width="1">
+              <circle cx="2.635" cy="2.635" r="2.635" stroke="none"/>
+              <circle cx="2.635" cy="2.635" r="2.135" fill="none"/>
+            </g>
+            <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(10.314 11.512)" fill="#151515" stroke="#151515" stroke-width="1">
+              <circle cx="2.635" cy="2.635" r="2.635" stroke="none"/>
+              <circle cx="2.635" cy="2.635" r="2.135" fill="none"/>
+            </g>
+            <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(0 5.756)" fill="#151515" stroke="#151515" stroke-width="1">
+              <circle cx="2.635" cy="2.635" r="2.635" stroke="none"/>
+              <circle cx="2.635" cy="2.635" r="2.135" fill="none"/>
+            </g>
+            <line id="Line_42" data-name="Line 42" y1="6" x2="10" transform="translate(2.5 2.5)" fill="none" stroke="#151515" stroke-width="1"/>
+            <path id="Path_25249" data-name="Path 25249" d="M1.457,2.609,11.484,7.85" transform="translate(1.449 6.373)" fill="none" stroke="#151515" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
