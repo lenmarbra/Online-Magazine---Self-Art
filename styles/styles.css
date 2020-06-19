@@ -129,6 +129,12 @@ nav a{
   z-index: -3;
 }
 
+.arrowdown{
+  position: absolute;
+  top: 43em;
+  left: 5.9em;
+}
+
 /* ------Background Green------- */
 
 .green-area{
@@ -136,7 +142,7 @@ nav a{
   height: 85em;
   background-color: #b7c5c5;
   position: relative;
-  top: 47.1em;
+  top: 49em;
   z-index: -1;
   box-sizing: border-box;
   padding: 30px; 
@@ -201,7 +207,7 @@ nav a{
   max-width: 65.5em;
   position: absolute;
   top: 60em;
-  left: 14em;
+  left: 13em;
   display: flex;
   flex-wrap: wrap;
   padding: 1.6em;
@@ -319,11 +325,17 @@ a{
   transform: skewY(6deg);
 }
 
+.footer-wrapper{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+}
+
 .nav-footer{
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
   position: absolute;
   left: 3em;
-  bottom: 5.75em;
+  bottom: 6.55em;
   display:flex;
   justify-content: space-between;
   z-index: 7;
@@ -338,7 +350,7 @@ a{
 .nav-footer ul li a{
   text-decoration: none;
   color: var(--main-bg-color);  
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 200;
   text-transform: uppercase;
 
@@ -363,7 +375,7 @@ a{
 .subscribe{
   position: absolute;
   right: 6em;
-  bottom: 7em;
+  bottom: 6.7em;
 }
 
 .subscribe p{
