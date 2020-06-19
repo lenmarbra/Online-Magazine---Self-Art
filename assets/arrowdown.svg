@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="57" viewBox="0 0 79 57">
+  <defs>
+    <clipPath id="clip-arrowdown">
+      <rect width="79" height="57"/>
+    </clipPath>
+  </defs>
+  <g id="arrowdown" clip-path="url(#clip-arrowdown)">
+    <path id="Path_25250" data-name="Path 25250" d="M232.921,225.528l-21.758,26,21.758,26" transform="translate(-212.648 251.042) rotate(-90)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>
