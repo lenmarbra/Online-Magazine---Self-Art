@@ -14,18 +14,13 @@
 /* magazine-title */
 h1{
   font-family: 'montserrat', 'raleway bold', 'helvetica bold', sans-serif;
-  font-size: 140px;
-  font-weight: 600;
+  font-size: 45px;
+  font-weight: 645;
   letter-spacing: 3px;
+  line-height: 1;
   text-transform: uppercase;
+  text-align: center;
 }
-@media only screen and (max-width: 400px){
-  h1{
-    font-size: 45px;
-    font-weight: 700;
-    letter-spacing: 1px;
-  }
-  }
 
 /* article-titles */
 h2{
@@ -71,77 +66,73 @@ a{
 
 body{
   min-height: 140em;
+  width: 100vp;
   overflow-x: hidden;
 }
 
 
 /* ------Navigation------ */
 
-.logo{
-  position: fixed;
-  top: 2.4em;
-  left: 5em;
-  height: 6em;
-}
-.logo:hover{
-  background-color: transparent;
-}
-
 nav{
-  margin: 2.5em 2em 1.5em auto;
-  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 4em;
+  background-color: #fff;
+  z-index: 1;
+}
+nav:after{
   position: absolute;
-  right: 1em; 
+  width: 100%;
+  height: 100%;
+  content:'';
+  background: inherit;
+  z-index: -2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: top right;
+  transform: skewY(-4deg);
+}
+a{
+  display: inline-block;
 }
 
-nav a{
-  display: inline;
-  margin: 1.5em;
-  padding: 2em 0;
-  text-decoration: none;
-  color: var(--main-txt-color);  
-  font-size: 16px;
-  text-transform: uppercase;
+.logo{
+  margin-top: 1em;
+  margin-left: 1em;
+  height: 3em;
 }
 
-/* .hb{
-  display: fixed;
-  top: 20.5em;
-  left: 15.5em;
-  background-image: url(/assets/hamburger.svg);
-  background-repeat: no-repeat;
-  background-color: transparent;
-} */
-
-/* ------ Mobile - Navigation ------ */
-
-@media only screen and (max-width: 400px){
-  .logo{
-    top: 1.5em;
-    left: 1.5em;
-    height: 3em;
-  }
-  nav{
-    display: none;
-  }
+.hb{
+  margin-left: 23em;
+  margin-top: 1em;
+    background-image: url(/assets/mobile/Hamburgermobile.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+  height: 3em;
+  z-index: 5;
 }
+
 
 
 /* ------Top Area------ */
 
 .title{
-  position: fixed;
-  top: 41%;
-  left: 19.7%;
+  position: absolute;
+  top: 6em;
+  left: 0.85em;
   z-index: -5;
 }
 .line{
-  height: 0.8em;
-  width: 60em; 
+  height: 0.25em;
+  width: 16em; 
   background-color: var(--main-txt-color);
-  position: fixed;
-  top: 60.1%;
-  left: 16%;
+  position: absolute;
+  top: 19.9em;
+  left: 3.6em;
   z-index: -4;
 }
 .circle{
@@ -156,45 +147,21 @@ nav a{
 }
 .arrowdown{
   position: absolute;
-  top: 43em;
-  left: 5.9em;
+  top: 37em;
+  left: 8.5em;
+  height: 9%;
+  opacity: 80%;
 }
 
-/* ------ Mobile - Top Area ------ */
-@media only screen and (max-width: 400px){
-  .title{
-    top: 15.5%;
-    left: 5%;
-    z-index: -5;
-  }
-  .line{
-    height: 0.4em;
-    width: 20em; 
-    top: 19%;
-    left: 3%;
-    z-index: -4;
-  }
-  .circle{
-    height: 6em;
-    width: 6em;
-    top: 41.5%;
-    left: 10%;
-  }
-  .arrowdown{
-    position: absolute;
-    top: 37em;
-    left: 2em;
-  }
-}
 
 /* ------Background Green------- */
 
 .green-area{
-  width: 100%;
-  height: 85em;
+  width: 100vp;
+  height: 110em;
   background-color: #b7c5c5;
   position: relative;
-  top: 49em;
+  top: 34em;
   z-index: -1;
   box-sizing: border-box;
   padding: 30px; 
@@ -229,22 +196,17 @@ nav a{
   transform: skewY(-8deg);
 }
 .bg-img{
-  background-image: url(/assets/bg/bgcolors.png);
+  background-image: url(/assets/mobile/bg_img_mobile.png);
   width: 100%;
   height: 1034px;
   background-repeat: no-repeat;
-  /* background-size: 90%; 
-  opacity: 30%; */
+  background-size: 150%; 
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -6;
+  z-index: -1;
 }
 
-/* ------ Mobile - Background Green ------ */
-@media only screen and (max-width: 400px){
-  
-}
 /* ------Articles area------ */
 
 /* #title-article-area{
@@ -253,71 +215,58 @@ nav a{
   left: 7.8em;
   z-index: 4;
 } */
+
 #article-section{
-  height: 70em;
-  max-width: 65.5em;
+  height: 35em;
+  max-width: 375px;
   position: absolute;
-  top: 60em;
-  left: 12.30em;
+  top: 45em;
   display: flex;
   flex-wrap: wrap;
-  padding: 1.6em;
+  padding: 1em;
 }
 
 /* -----------------CARD------------------- */
     
 .card {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 1em;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  float: left;
+  width: 340px;
+  height: 160px;
+  margin: 0.5em 1em 0.5em 0;
+  background-color: var(--main-bg-color);
 }
 .image {
   display: block;
-  width: 100%;
+  width: 150px;
+  height: 120px;
   height: auto;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: var(--main-bg-color);
-}
-.card:hover .overlay {
-  opacity: 1;
+  margin: 0em;
 }
 .text {
   font-size: 16px;
-  position: absolute;
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
   color: var(--second-txt-color-color);
   /* margin: 2.4em 1.9em 1.9em 2.5em; */
-  margin: 2.4em;
+  margin: 1.3em;
   text-align: left;
+  z-index: 3;
 }
 .text h5{
-  font-size: 21px;
+  font-size: 16px;
   font-weight: lighter;
   margin-bottom: 0.5em;
   line-height: 1.3;
 }
 .text p{
   font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
-  line-height: 1.4;
-  font-size: 16px;
+  line-height: 1.3;
+  font-size: 12px;
 }
 h6 {
   text-transform: uppercase;
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: lighter;
   margin-top: 1.2em;
 }
@@ -329,16 +278,17 @@ a{
 /* --------Quote Area------- */
 
 .quote{
-  width: 18em;
+  width: 14em;
   position: absolute;
-  top: 63.5em;
-  left: 28%;
-  font-size: 40px;
+  top: 124em;
+  left: 12%;
+  font-size: 20px;
   line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 .quote span{
-  font-size: 30px;
+  font-size: 16px;
 }
 
 /* -------Footer------- */
@@ -348,7 +298,7 @@ a{
   height: 15em;
   background-color: #1a1a1a;
   position: relative;
-  top: 95em;
+  top: 50em;
   box-sizing: border-box;
 }
 .black-area:before{
@@ -370,62 +320,43 @@ a{
   left: 4.8em;
   z-index: 7;
 }
-.nav-footer{
-  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  position: absolute;
-  left: 3em;
-  bottom: 6.55em;
-  display:flex;
-  justify-content: space-between;
-  z-index: 7;
-}
-.nav-footer li{
-  margin: 1em 5em 0 0;
-  list-style: none;
-}
-.nav-footer ul li a{
-  text-decoration: none;
-  color: var(--main-bg-color);  
-  font-size: 16px;
-  font-weight: 200;
-  text-transform: uppercase;
-}
 .social-icons{
   position: absolute;
-  top: 3.1em;
-  left: 36%;
+  top: 6.5em;
+  left: 8%;
+  background-size: 80%;
   background-color: transparent;
+  display: flex;
+  justify-content: space-between;
 }
 .social-icons a{
+  display: inline-block;
   padding: 2em;
-  background-color: transparent;
-}
-.social-icons img:hover{
   background-color: transparent;
 }
 .subscribe{
   position: absolute;
-  right: 6em;
-  bottom: 6.7em;
+  left: 1em;
+  bottom: 9em;
 }
 .subscribe p{
   color: var(--main-bg-color);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
   letter-spacing: 0.8pt;
   margin-bottom: 0.5em;
 }
 .subscr-box{
-  width: 22em;
+  width: 21.5em;
   height: 3em;
   border: solid 1px white;
   z-index: 7;
 }
 .copyright{
   position: absolute;
-  bottom: 2em;
-  left: 5.5em;
+  bottom: 1em;
+  left: 1em;
 }
 .copyright p{
  font-size: 12px;
@@ -434,9 +365,3 @@ a{
 }
 
 
-/* ------ Mobile - Animation off ------ */
-@media only screen and (max-width: 400px){
-  .animationoff{
-    display: none;
-  }
-}
