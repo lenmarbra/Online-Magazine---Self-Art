@@ -108,7 +108,7 @@ nav a{
   display: fixed;
   top: 20.5em;
   left: 15.5em;
-  background-image: url(/assets/Hamburger.svg);
+  background-image: url(/assets/hamburger.svg);
   background-repeat: no-repeat;
   background-color: transparent;
 } */
@@ -136,11 +136,11 @@ nav a{
   z-index: -5;
 }
 .line{
-  height: 0.4em;
+  height: 0.8em;
   width: 60em; 
   background-color: var(--main-txt-color);
   position: fixed;
-  top: 60.8%;
+  top: 60.1%;
   left: 16%;
   z-index: -4;
 }
@@ -150,7 +150,7 @@ nav a{
   border-radius: 50%;
   background-color: #1a1a1a;
   position: absolute;
-  top: 61.5%;
+  top: 61.6%;
   left: 44%;
   z-index: -3;
 }
@@ -258,7 +258,7 @@ nav a{
   max-width: 65.5em;
   position: absolute;
   top: 60em;
-  left: 13em;
+  left: 12.30em;
   display: flex;
   flex-wrap: wrap;
   padding: 1.6em;

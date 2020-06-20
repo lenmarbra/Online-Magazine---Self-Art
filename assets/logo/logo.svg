@@ -7,8 +7,8 @@
   <g id="logo2" clip-path="url(#clip-logo2)">
     <g id="Group_342" data-name="Group 342" transform="translate(-20 -17)">
       <g id="Group_332" data-name="Group 332" transform="translate(-738.301 -375.887)">
-        <line id="Line_65" data-name="Line 65" y1="9.383" x2="123.927" transform="translate(761.301 445.342)" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="3"/>
-        <path id="Path_13231" data-name="Path 13231" d="M0,0,123.927,9.383" transform="translate(761.329 495.617)" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+        <line id="Line_65" data-name="Line 65" y1="9.383" x2="123.927" transform="translate(761.301 445.342)" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="6"/>
+        <path id="Path_13231" data-name="Path 13231" d="M0,0,123.927,9.383" transform="translate(761.329 495.617)" fill="none" stroke="#1a1a1a" stroke-width="6"/>
         <text id="S" transform="translate(774.301 449.888)" fill="#1a1a1a" font-size="70" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">S</tspan></text>
         <text id="A" transform="translate(823.301 498.888)" fill="#1a1a1a" font-size="70" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">A</tspan></text>
       </g>
