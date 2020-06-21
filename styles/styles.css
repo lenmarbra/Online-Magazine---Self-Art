@@ -323,9 +323,18 @@ h6 {
   font-weight: lighter;
   margin-top: 1.2em;
 }
-a{
+#article-section a{
   text-decoration: none;
-  color: var(--main-txt-color)
+  color: var(--main-txt-color);
+  position: relative;
+}
+.save{
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+  height: 30px;
+  width: 20px;
+  opacity: 50%;
 }
 
 /* --------Quote Area------- */
