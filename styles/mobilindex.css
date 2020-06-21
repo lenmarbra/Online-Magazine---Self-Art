@@ -246,6 +246,7 @@ nav a{
   margin: 0.5em auto 0.5em 0.1em;
   background-color: var(--main-bg-color);
   box-shadow: 2px 6px 12px #b3b0b0;
+  position: relative;
 }
 .image {
   display: block;
@@ -288,8 +289,8 @@ a{
 }
 .save{
   position: absolute;
-  bottom: 2em;
-  right: 1.75em;
+  bottom: 1em;
+  right: 1em;
   height: 20px;
   width: 15px;
   opacity: 50%;
