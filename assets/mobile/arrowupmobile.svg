@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="57" viewBox="0 0 79 57">
+  <defs>
+    <clipPath id="clip-arrowupmobile_">
+      <rect width="79" height="57"/>
+    </clipPath>
+  </defs>
+  <g id="arrowupmobile_" data-name="arrowupmobile " clip-path="url(#clip-arrowupmobile_)">
+    <path id="Path_25250" data-name="Path 25250" d="M12,37,0,18.5,12,0" transform="translate(58.501 22.5) rotate(90)" fill="none" stroke="#d7d5d5" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>

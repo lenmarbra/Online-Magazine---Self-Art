@@ -5,6 +5,6 @@
     </clipPath>
   </defs>
   <g id="arrowdownmobile" clip-path="url(#clip-arrowdownmobile)">
-    <path id="Path_25250" data-name="Path 25250" d="M223.163,225.528l-12,18.5,12,18.5" transform="translate(-204.027 245.663) rotate(-90)" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="4"/>
+    <path id="Path_25250" data-name="Path 25250" d="M223.163,225.528l-12,18.5,12,18.5" transform="translate(-204.027 245.663) rotate(-90)" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="3"/>
   </g>
 </svg>

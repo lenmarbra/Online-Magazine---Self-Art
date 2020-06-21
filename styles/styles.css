@@ -72,6 +72,7 @@ a{
 body{
   min-height: 140em;
   overflow-x: hidden;
+  background-color: rgba(129, 115, 115, 0.226);
 }
 
 
@@ -229,12 +230,12 @@ nav a{
   transform: skewY(-8deg);
 }
 .bg-img{
-  background-image: url(/assets/bg/bgcolors.png);
+  background-image: url(/assets/bg/bg-destop-1.svg);
+  /* background-image: url(/assets/bg/bg-desktop-2.svg); */
   width: 100%;
   height: 1034px;
   background-repeat: no-repeat;
-  /* background-size: 90%; 
-  opacity: 30%; */
+  opacity: 70%;
   position: fixed;
   top: 0;
   left: 0;
@@ -273,6 +274,7 @@ nav a{
   margin: 1em;
   justify-content: center;
   align-items: center;
+  box-shadow: 2px 6px 12px #b3b0b0;
 }
 .image {
   display: block;
