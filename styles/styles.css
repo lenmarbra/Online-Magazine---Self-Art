@@ -195,7 +195,7 @@ nav a{
   height: 85em;
   background-color: #b7c5c5;
   position: relative;
-  top: 49em;
+  top: 47.2em;
   z-index: -1;
   box-sizing: border-box;
   padding: 30px; 
@@ -326,7 +326,6 @@ h6 {
 #article-section a{
   text-decoration: none;
   color: var(--main-txt-color);
-  position: relative;
 }
 .save{
   position: absolute;
@@ -433,6 +432,29 @@ h6 {
   border: solid 1px white;
   z-index: 7;
 }
+.overlaysubscr {
+  position: absolute;
+  top: 3.4em;
+  bottom: 0;
+  left: 1em;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: none;
+}
+.subscr-box:hover .overlaysubscr {
+  opacity: 1;
+}
+.overlaysubscr p{
+  color: rgb(170, 169, 169);
+  font-size: 14px;
+
+}
+
+
+
 .copyright{
   position: absolute;
   bottom: 2em;
