@@ -9,17 +9,17 @@
 
 <header id="top-of-page">
   <nav>
-    <a href="index.html"><img class="logo" src="/assets/logo/logo.svg" alt="Self & Art logo"></a>
-    <a><div class="hb"></div></a>
+    <a href="mobileindex.html"><img class="logo" src="/assets/logo/logo.svg" alt="Self & Art logo"></a>
   </nav>
+  <a><div class="hb"></div></a>
 </header>
 <!-- <img src="/assets/hamburger.svg" alt="menu"> -->
 <body>
 
 <!-- Top Area -->
 <h1 class="title">Self & Art</h1>
-<!-- <div class="line"></div> -->
-<!-- <div class="circle"></div> -->
+<div class="line"></div>
+<div class="circle"></div>
 <div class="bg-img"></div>
 <img class="arrowdown" src="/assets/mobile/arrowdownmobile.svg" alt="Scroll down">
 <div class="green-area"></div>
@@ -34,7 +34,7 @@
       <div class="text-area">
         <div class="text">
           <h5>While at Home, Let’s Color the World</h5>
-          <p>Coloring books have been shown to reduce stress and anxiety...</p>
+          <p>Coloring books have been shown to reduce stress and anxiety while promoting...</p>
           <h6 class="author">By Sarah Firshein</h6>
         </div>
       </div>
@@ -61,7 +61,7 @@
       <div class="text-area">
         <div class="text">
           <h5>Art-Making as <br>Self-Discovery</h5>
-          <p>“Material Identity,” a group show organized by London gallery Rook & Raven to...</p>
+          <p>“Material Identity,” a group show organized by London gallery...</p>
           <h6 class="author">By Jenny Florence</h6>
         </div>
       </div>
@@ -87,7 +87,7 @@
       <div class="text-area">
         <div class="text">
           <h5>Art Biennials</h5> 
-          <p>As the pandemic clears the calendar, curators around the world reimagine how, and if we will gather for art.</p>
+          <p>As the pandemic clears the calendar, curators around the world reimagine how, and if we will gather...</p>
           <h6 class="author">By Siddhartha Mitter</h6>
         </div>
       </div>
@@ -114,7 +114,7 @@
       <div class="text-area">
           <div class="text">
           <h5>Artists on <br>the Self-Care</h5>
-          <p>During the busy season, it can seem impossible to get everything done, let alone...</p>
+          <p>During the busy season, it can seem impossible to get everything done...</p>
           <h6 class="author">By Michael hardy</h6>
         </div>
       </div>
@@ -140,7 +140,7 @@
       <div class="text-area">
           <div class="text">
           <h5>Kids’ Shapes and Scribbles</h5>
-          <p>Your child’s quirky art isn’t just cute—science suggests that even the most bizarre... </p>
+          <p>Your child’s quirky art isn’t just cute—science suggests that even the... </p>
           <h6 class="author">By Isabel Fattal</h6>
         </div>
       </div>
@@ -150,14 +150,13 @@
 </section>
 
 <p class="quote">“Art enables us to find ourselves and lose ourselves at the same time.” 
-  <br><span>- Thomas Merton</span></p>
+  <br><span>Thomas Merton</span></p>
 
 <!-- Footer -->
 <footer class="black-area">
-    <!-- <section class="arrowup">
-      <a href="index.html"><img src="/assets/arrowup.svg" alt="Go back up"></a>
-    </section> -->
-
+    <section class="arrowup">
+      <a href="mobileindex.html"><img src="/assets/mobile/arrowupmobile.svg" alt="Go back up"></a>
+    </section>
     <section class=social-icons>
       <a href="#"><img src=assets/socialicons/share.svg alt="share"></a>
       <a href="#"><img src=assets/socialicons/save.svg alt="share"></a>
@@ -165,7 +164,7 @@
     </section>
     <section class="subscribe">
       <p>Subscribe</p>
-      <div class="subscr-box"></div>
+      <div class="subscr-box">Enter your email</div>
     </section>
     <section class="copyright">
       <p>© 2020 selfandart.com all rights reserved</p>
@@ -180,44 +179,3 @@
 </html>
 
 
-<!-- Animations -->
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/CSSRulePlugin.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
-
-<script>
-  var tl = gsap.timeline();
-      tl.staggerFrom(".splittext span", 1, {opacity:0, y:80, ease:Bounce.easeOut}, 0.4);
-      tl.from(".line", {y: -8, rotation: -15, x: 40, duration: 1.5, ease: "back"});
-      tl.from(".title", {y: -8, rotation: -15, x: 40, duration: 1.5, ease: "back"}, "-=1.5");
-      tl.from(".arrowdown", {opacity:0, duration:1}, 3);
-
-gsap.registerPlugin(ScrollTrigger)
-
-      gsap.to(".circle", {x: 880, y: 126, duration: 3, scrollTrigger: {
-        trigger: ".circle",
-        // markers: true,
-        start: "top 60%",
-        end: "bottom -10%",
-        // toggleActions:"restart pause reverse reset"
-      }});
-
-      gsap.to(".arrowdown", {opacity: 0, duration:0.5, scrollTrigger:{
-        trigger: ".arrowdown",
-        start: "top 60%"
-        // markers: true,
-      }});
-
-      gsap.from(".logo", {opacity: 0, duration: 2, scrollTrigger: {
-        trigger: ".logo",
-        // markers: true,
-        start: "top -100"
-      }});
-
-      gsap.to("h1, .line", {opacity: 0, duration: 2, scrollTrigger: {
-        trigger: "h1, .line",
-        start: "top 0%",
-        // toggleActions:"restart pause reverse reset"
-      }
-      });
