@@ -114,8 +114,8 @@ nav a{
   top: 1.5em;
   left: 1.5em; 
   display: block;
-  margin-left: 18em;
-  margin-top: -0.75em;
+  margin-left: 18.3em;
+  margin-top: -0.8em;
     background-image: url(/assets/mobile/Hamburgermobile.svg);
     background-repeat: no-repeat;
     /* background-color: transparent; */
@@ -144,13 +144,13 @@ nav a{
   z-index: -1;
 }
 .circle{
-  height: 8em;
-  width: 8em;
+  height: 6em;
+  width: 6em;
   border-radius: 50%;
   background-color: #1a1a1a;
   position: absolute;
   top: 53%;
-  left: 31%;
+  left: 35%;
   z-index: -1;
 }
 .arrowdown{
@@ -169,7 +169,7 @@ nav a{
   height: 117em;
   background-color: #b7c5c5;
   position: relative;
-  top: 31.9em;
+  top: 29.9em;
   z-index: -1;
   box-sizing: border-box;
   padding: 30px; 
