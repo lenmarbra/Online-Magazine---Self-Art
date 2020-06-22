@@ -177,23 +177,23 @@
 
 .comment {
   position: absolute;
-  top:1890px;
-  left:86%;
+  top:1840px;
+  left:88.2%;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
 
 .comment2 {
   position: absolute;
-  top:3115px;
-  left:180px;
+  top:3070px;
+  left:173px;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
 
 .comment3 {
   position: absolute;
-  top:4080px;
+  top:4040px;
   left:180px;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
@@ -201,49 +201,50 @@
 
 .comment4 {
   position: absolute;
-  top:4615px;
-  left:180px;
+  top:4595px;
+  left:172px;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
 
 .comment5 {
   position: absolute;
-  top:5675px;
-  left:180px;
+  top:5630px;
+  left:174px;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
 
 .comment6 {
   position: absolute;
-  top:6280px;
-  left:180px;
+  top:6258px;
+  left:174px;
   font-size: 14px;
+  max-width: 50em;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
 
 .comment7 {
   position: absolute;
-  top:6805px;
-  left:180px;
+  top:6787px;
+  left:173px;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
 
 .comment8 {
   position: absolute;
-  top:7510px;
+  top:7490px;
   width: 500px;
-  left:74%;
+  left:73.7%;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
 
 .comment9 {
   position: absolute;
-  top:8055px;
-  left:85.5%;
+  top:8030px;
+  left:88%;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
@@ -524,7 +525,7 @@
   height: 70em;
   max-width: 65.5em;
   position: absolute;
-  left: 25em;
+  left: 22.2em;
   display: flex;
   flex-wrap: wrap;
   padding: 1.6em;
@@ -625,7 +626,7 @@ h6 {
   position: absolute;
   width: 700px;
   top: 538.5em;
-  left:29%;
+  left:27.5%;
   z-index: 7;
 }
 a{
