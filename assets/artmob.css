@@ -1,0 +1,256 @@
+@media only screen and (max-width: 400px) { }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  body {
+    background-color: white;
+  }
+  
+  :root{
+    —main-bg-color: #fbf9f9;
+    —main-txt-color: #1a1a1a;
+    —second-txt-color: #548a89;
+  }
+  
+  /* ——Fonts & Sizes——— */
+  
+  /* magazine-title */
+  h1{
+    font-family: ‘montserrat’, ‘raleway bold’, ‘helvetica bold’, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  
+  /* article-titles */
+  h2{
+    font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    max-width: 65%;
+  }
+  
+  /* sub-titles */
+  h3{
+    font-family: ‘lucida std roman’, ‘itc stone informal’, Georgia, Times, ‘Times New Roman’, serif;
+    font-size: 14px;
+    color: var(———second-txt-color-color);
+  }
+  
+  /* paragraphs */
+  p{
+    font-family: ‘lucida std roman’, ‘itc stone informal’, Georgia, Times, ‘Times New Roman’, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 80%;
+    color: var(———second-txt-color-color);
+  }
+  
+  /* captions */
+  .captions {
+    font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
+    font-size: 16px;
+    color: var(———second-txt-color-color);
+  }
+
+  /* ------Navigation------ */
+
+.logo{
+    position: absolute;
+    top: 1px;
+    left: 6px;
+    height: 3.2em;
+    z-index: 3;
+  }
+  /* .logo:hover{
+    background-color: transparent;
+  } */
+  
+  nav{
+    position: absolute;
+    top: 22px;
+    left: 320px;
+  }
+
+
+  .cover {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .special {
+      position: absolute;
+      font-size: 12px;
+      font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
+      top: 250px;
+      left: 45px;
+
+  }
+
+  .article {
+      position: absolute;
+      top: 170px;
+      left: 45px;
+  }
+  
+  .paragraph1 {
+      position: absolute;
+      top: 700px;
+      left: 45px;
+  }
+
+  .first {
+      position: absolute;
+      top: 1750px;
+      left: 0;
+  }
+
+  .paragraph2 {
+      position: absolute;
+      top: 2170px;
+      left: 45px;
+  }
+
+  .second {
+      position: absolute;
+      top: 3020px;
+      left: 0em;
+  }
+
+  .comment {
+      position: absolute;
+      font-size: 14px;
+      top: 3430px;
+      left: 53px;
+      font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
+      z-index: 1;
+  }
+
+  .third {
+      position: absolute;
+      top: 3500px;
+      left: 0;
+  }
+
+  .comment1 {
+    position: absolute;
+    font-size: 14px;
+    top: 4080px;
+    left: 53px;
+    font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
+    z-index: 1;
+}
+
+  .fourth {
+      position: absolute;
+      top: 4150px;
+      left: 0;
+  }
+
+  .comment2 {
+    position: absolute;
+    font-size: 14px;
+    top: 4805px;
+    left: 55px;
+    font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
+    z-index: 1;
+}
+
+  .fifth {
+      position: absolute;
+      top: 4880px;
+      left: 0;
+  }
+
+  .comment3 {
+    position: absolute;
+    font-size: 14px;
+    top: 5405px;
+    left: 80px;
+    font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
+    z-index: 1;
+}
+
+    .arrow {
+        position: absolute;
+        top: 5460px;
+        left: 45%;
+    }
+
+  .black-area{
+    width: 100%;
+    height: 15em;
+    background-color: #1a1a1a;
+    position: relative;
+    top: 5550px;
+    box-sizing: border-box;
+  }
+  .black-area:before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content:'';
+    background: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transform: skewY(6deg);
+  }
+  /* .arrowup{
+    position: absolute;
+    top: ;
+    left: 4.8em;
+    z-index: 7;
+  } */
+
+  .social-icons{
+    position: absolute;
+    top: 5px;
+    left: 17%;
+  }
+  .social-icons a{
+    padding: 1.8em;
+    background-color: transparent;
+  }
+  .social-icons img:hover{
+    background-color: transparent;
+  }
+  .subscribe{
+    position: absolute;
+    left: 40px;
+    bottom: 6.7em;
+  }
+  .subscribe p{
+    color: white;
+    font-size: 18px;
+    font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
+    letter-spacing: 0.8pt;
+    margin-bottom: 0.5em;
+    letter-spacing: .8px;
+  }
+  .subscr-box{
+    width: 250px;
+    height: 30px;
+    border: solid 1px white;
+    z-index: 7;
+  }
+  .copyright{
+    position: absolute;
+    bottom: 2em;
+    left: 40px;
+    
+  }
+  .copyright p{
+   font-size: 12px;
+   width: 1000px;
+   color: white;
+   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
+  }
