@@ -348,7 +348,9 @@ h6 {
 }
 
 .quote span{
-  font-size: 30px;
+  font-size: 28px;
+  margin-left: 61.2%;
+  line-height: 3;
 }
 
 /* -------Footer------- */
