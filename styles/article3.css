@@ -8,9 +8,9 @@
   }
   
   :root{
-    —main-bg-color: #fbf9f9;
-    —main-txt-color: #1a1a1a;
-    —second-txt-color: #548a89;
+    -—main-bg-color: #fbf9f9;
+    -—main-txt-color: #1a1a1a;
+    -—second-txt-color: #548a89;
   }
   
   /* ——Fonts & Sizes——— */
@@ -101,7 +101,7 @@
 
   .article {
     position: absolute;
-    width: 24%;
+    width: 50%;
     left: 180px;
     top: 320px;
     z-index: 1;
@@ -118,7 +118,7 @@
   .special {
     position: absolute;
     top: 480px;
-    left: 180px;
+    left: 184px;
     font-weight: 100;
     font-size: 14px;
   }
@@ -135,7 +135,7 @@
       position: absolute;
       font-size: 32px;
       left: 180px;
-      top: 1600px;
+      top: 1617px;
   }
 
   .paragraph1 {
@@ -146,9 +146,10 @@
 
 .comment {
   position: absolute;
-  top:2470px;
-  left: 62%;
+  top:2430px;
+  left: 60.5%;
   font-size: 14px;
+  max-width: 300em;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
 
@@ -164,7 +165,7 @@
     position: absolute;
     width:45%;
     left:180px;
-    top: 2610px;
+    top: 2650px;
     
 }
 
@@ -190,7 +191,7 @@
 }
 .comment2 {
     position: absolute;
-    top:3155px;
+    top:3165px;
     left: 180px;
     font-size: 14px;
     font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
@@ -220,7 +221,7 @@
 
 .comment3 {
   position: absolute;
-  top: 4030px;
+  top: 3990px;
   left: 180px;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
@@ -265,8 +266,8 @@
 
 .comment4 {
   position: absolute;
-  top:4825px;
-  left: 77%;
+  top:4795px;
+  left: 76.5%;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
@@ -294,8 +295,8 @@
 
 .comment5 {
   position: absolute;
-  top:5750px;
-  left: 73.3%;
+  top:5710px;
+  left: 72.3%;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
@@ -339,7 +340,7 @@
 
 .comment6 {
   position: absolute;
-  top: 6597px;
+  top: 6567px;
   left: 180px;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
@@ -355,7 +356,7 @@
 
 .comment7 {
   position: absolute;
-  top: 7470px;
+  top: 7430px;
   left: 180px;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
@@ -397,7 +398,7 @@
 
 .comment9 {
   position: absolute;
-  top:9119px;
+  top:9100px;
   left: 74%;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
@@ -564,7 +565,7 @@
   height: 70em;
   max-width: 65.5em;
   position: absolute;
-  left: 25em;
+  left: 22.2em;
   display: flex;
   flex-wrap: wrap;
   padding: 1.6em;
@@ -628,8 +629,8 @@
   color: black;
   /* margin: 2.4em 1.9em 1.9em 2.5em; */
   /* margin: 2.4em; */
-  margin-left: 3.9em;
-  margin-top: 2.6em;
+  margin-left: 3em;
+  margin-top: 3em;
   text-align: left;
 }
 .text h5{
@@ -673,7 +674,7 @@ a{
   position: absolute;
   width: 700px;
   top: 588em;
-  left:29%;
+  left:27.5%;
   z-index: 7;
 }
 

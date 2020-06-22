@@ -8,9 +8,9 @@
   }
   
   :root{
-    —main-bg-color: #fbf9f9;
-    —main-txt-color: #1a1a1a;
-    —second-txt-color: #548a89;
+    -—main-bg-color: #fbf9f9;
+    -—main-txt-color: #1a1a1a;
+    -—second-txt-color: #548a89;
   }
   
   /* ——Fonts & Sizes——— */
@@ -124,22 +124,22 @@
   
   .paragraph1 {
     position: absolute;
-    margin-left: 180px;
+    margin-left: 176px;
     top: 900px;
   }
 
   .comment {
   position: absolute;
-  top:1640px;
-  left: 78%;
+  top:1610px;
+  left: 79.5%;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
   }
 
   .comment1 {
     position: absolute;
-    top:3000px;
-    left:180px;
+    top:2960px;
+    left:170px;
     font-size: 14px;
     font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
     }
@@ -147,8 +147,8 @@
     .comment2 {
       position: absolute;
       width: 700px;
-      top:3950px;
-      left:180px;
+      top:3900px;
+      left:170px;
       font-size: 14px;
       font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
       }
@@ -156,8 +156,8 @@
       .comment3  {
         position: absolute;
         
-        top:4970px;
-        left:180px;
+        top:4925px;
+        left:170px;
         font-size: 14px;
         font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
         }
@@ -165,8 +165,8 @@
         .comment4 {
           position: absolute;
           width: 100em;
-          top:5730px;
-          left:180px;
+          top:5701px;
+          left:178px;
           font-size: 14px;
           font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif; 
         }
@@ -186,14 +186,14 @@
 
   .paragraph2 {
     position: absolute;
-    margin-left: 930px;
-    top: 2080px;
+    margin-left: 870px;
+    top: 2090px;
   }
 
   .second {
     position: absolute;
     width: 45%;
-    top: 2080px;
+    top: 2090px;
     left: 12%; 
     
 }
@@ -359,7 +359,7 @@
   height: 70em;
   max-width: 65.5em;
   position: absolute;
-  left: 25em;
+  left: 22.2em;
   display: flex;
   flex-wrap: wrap;
   padding: 1.6em;
@@ -433,8 +433,8 @@
   color: black;
   /* margin: 2.4em 1.9em 1.9em 2.5em; */
   /* margin: 2.4em; */
-  margin-left: 3.9em;
-  margin-top:2.6em;
+  margin-left: 3em;
+  margin-top: 3em;
   text-align: left;
 }
 .text h5{
@@ -467,7 +467,7 @@ a{
   position: absolute;
   width: 700px;
   top: 261em;
-  left:29%;
+  left:27.5%;
   z-index: 7;
 }
 

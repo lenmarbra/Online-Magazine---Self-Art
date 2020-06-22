@@ -230,7 +230,7 @@ nav a{
   transform: skewY(-8deg);
 }
 .bg-img{
-  background-image: url(/assets/bg/bg-destop-1.svg);
+  background-image: url(/assets/bg/bgdestop1.svg);
   /* background-image: url(/assets/bg/bg-desktop-2.svg); */
   width: 100%;
   height: 1034px;
