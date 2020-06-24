@@ -229,7 +229,7 @@ nav a{
   transform-origin: top right;
   transform: skewY(-8deg);
 }
-.bg-img{
+.bgimg{
   background-image: url(images/bg/bgdesktopone.svg);
   /* background-image: url(images/bg/bg-desktop-2.svg); */
   width: 100%;
@@ -239,7 +239,7 @@ nav a{
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -6;
+  z-index: -5;
 }
 
 /* ------ Mobile - Background Green ------ */
