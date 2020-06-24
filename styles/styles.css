@@ -109,7 +109,7 @@ nav a{
   display: fixed;
   top: 20.5em;
   left: 15.5em;
-  background-image: url(/images/hamburger.svg);
+  background-image: url(images/hamburger.svg);
   background-repeat: no-repeat;
   background-color: transparent;
 } */
@@ -229,9 +229,9 @@ nav a{
   transform-origin: top right;
   transform: skewY(-8deg);
 }
-.bg-img{
-  background-image: url(/images/bg/bgdestop1.svg);
-  /* background-image: url(/images/bg/bg-desktop-2.svg); */
+.bgimg{
+  background-image: url(images/bg/bgdesktopone.svg);
+  /* background-image: url(images/bg/bg-desktop-2.svg); */
   width: 100%;
   height: 1034px;
   background-repeat: no-repeat;
@@ -239,7 +239,7 @@ nav a{
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -6;
+  z-index: -5;
 }
 
 /* ------ Mobile - Background Green ------ */
