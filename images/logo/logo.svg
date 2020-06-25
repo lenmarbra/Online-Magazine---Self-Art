@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="97" viewBox="0 0 101 97">
+  <defs>
+    <clipPath id="clip-logo">
+      <rect width="101" height="97"/>
+    </clipPath>
+  </defs>
+  <g id="logo" clip-path="url(#clip-logo)">
+    <g id="Group_401" data-name="Group 401" transform="translate(-15.755 -10.292)">
+      <line id="Line_65" data-name="Line 65" y1="16.975" x2="93.052" transform="translate(20.255 42.818)" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="S" transform="translate(32.987 3.293)" style="isolation: isolate">
+        <text id="S-2" data-name="S" transform="translate(0 50)" fill="#1a1a1a" font-size="52" font-family="Montserrat-Bold, Montserrat" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">S</tspan></text>
+      </g>
+      <g id="A" transform="translate(53.162 30.585) rotate(7)" style="isolation: isolate">
+        <text id="A-2" data-name="A" transform="translate(14.006 51.485) rotate(2)" fill="#1a1a1a" font-size="52" font-family="Montserrat-Bold, Montserrat" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">A</tspan></text>
+      </g>
+      <line id="Line_75" data-name="Line 75" x2="93.5" y2="15.999" transform="translate(20.255 76.793)" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
