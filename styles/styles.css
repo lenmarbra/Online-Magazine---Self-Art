@@ -78,11 +78,16 @@ body{
 
 /* ------Navigation------ */
 
-.logo{
+/* #top-of-page{
   position: fixed;
-  top: 2.4em;
-  left: 5em;
-  height: 6em;
+} */
+
+.logo{
+    position: fixed;
+    top: 10px;
+    left: 55px;
+    height: 6em;
+    z-index: 3;
 }
 .logo:hover{
   background-color: transparent;
@@ -91,12 +96,11 @@ body{
 nav{
   margin: 2.5em 2em 1.5em auto;
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  position: absolute;
+  position: fixed;
   right: 1em; 
 }
 
 nav a{
-  display: inline;
   margin: 1.5em;
   padding: 2em 0;
   text-decoration: none;
@@ -105,14 +109,11 @@ nav a{
   text-transform: uppercase;
 }
 
-/* .hb{
-  display: fixed;
-  top: 20.5em;
-  left: 15.5em;
-  background-image: url(images/hamburger.svg);
-  background-repeat: no-repeat;
-  background-color: transparent;
-} */
+.hb{
+  top: 1.5em;
+  right: 0em;
+}
+
 
 /* ------ Mobile - Navigation ------ */
 
@@ -338,18 +339,23 @@ h6 {
 /* --------Quote Area------- */
 
 .quote{
-  width: 18em;
+  width: 15em;
   position: absolute;
-  top: 63.5em;
-  left: 28%;
+  top: 63em;
+  left: 26%;
   font-size: 40px;
   line-height: 1.5;
+  font-family: 'montserrat', 'raleway regular', 'helvetica regular', sans-serif;
+  /* text-transform: uppercase;  */
+  font-weight: 600;
 }
 
 .quote span{
   font-size: 28px;
-  margin-left: 61.2%;
+  margin-left: 63%;
   line-height: 3;
+  font-family: 'lucida std', 'raleway regular', 'helvetica regular', sans-serif;
+  font-weight: 200;
 }
 
 /* -------Footer------- */
