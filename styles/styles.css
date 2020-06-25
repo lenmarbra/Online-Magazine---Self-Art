@@ -84,9 +84,9 @@ body{
 
 .logo{
     position: fixed;
-    top: 10px;
-    left: 55px;
-    height: 6em;
+    top: 2em;
+    left: 2.9em;
+    height: 5em;
     z-index: 3;
 }
 .logo:hover{
@@ -101,8 +101,7 @@ nav{
 }
 
 nav a{
-  margin: 1.5em;
-  padding: 2em 0;
+  padding: 2em 0.2em;
   text-decoration: none;
   color: var(--main-txt-color);  
   font-size: 16px;
@@ -111,7 +110,6 @@ nav a{
 
 .hb{
   top: 1.5em;
-  right: 0em;
 }
 
 
@@ -158,8 +156,8 @@ nav a{
 }
 .arrowdown{
   position: absolute;
-  top: 43em;
-  left: 5.9em;
+  top: 45.5em;
+  left: 2.9em;
 }
 
 /* ------ Mobile - Top Area ------ */
@@ -185,7 +183,7 @@ nav a{
   .arrowdown{
     position: absolute;
     top: 37em;
-    left: 2em;
+    left: 1em;
   }
 }
 
@@ -196,7 +194,7 @@ nav a{
   height: 85em;
   background-color: #b7c5c5;
   position: relative;
-  top: 49em;
+  top: 47.2em;
   z-index: -1;
   box-sizing: border-box;
   padding: 30px; 
@@ -259,7 +257,7 @@ nav a{
   max-width: 65.5em;
   position: absolute;
   top: 60em;
-  left: 12.30em;
+  left: 12.2em;
   display: flex;
   flex-wrap: wrap;
   padding: 1.6em;
@@ -274,7 +272,7 @@ nav a{
   margin: 1em;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px 6px 12px #b3b0b0;
+  box-shadow: 2px 6px 12px #b1b3b1;
 }
 .image {
   display: block;
@@ -342,7 +340,7 @@ h6 {
   width: 15em;
   position: absolute;
   top: 63em;
-  left: 26%;
+  left: 29.5%;
   font-size: 40px;
   line-height: 1.5;
   font-family: 'montserrat', 'raleway regular', 'helvetica regular', sans-serif;
@@ -351,11 +349,11 @@ h6 {
 }
 
 .quote span{
-  font-size: 28px;
-  margin-left: 63%;
+  font-size: 23px;
+  margin-left: 67%;
   line-height: 3;
-  font-family: 'lucida std', 'raleway regular', 'helvetica regular', sans-serif;
-  font-weight: 200;
+  font-family: 'montserrat', 'raleway regular', 'helvetica regular', sans-serif;
+  font-weight: 600;
 }
 
 /* -------Footer------- */
@@ -390,7 +388,7 @@ h6 {
 .nav-footer{
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
   position: absolute;
-  left: 3em;
+  left: 1em;
   bottom: 6.55em;
   display:flex;
   justify-content: space-between;
@@ -410,7 +408,7 @@ h6 {
 .social-icons{
   position: absolute;
   top: 3.1em;
-  left: 36%;
+  left: 38.7%;
   background-color: transparent;
 }
 .social-icons a{
@@ -422,16 +420,16 @@ h6 {
 }
 .subscribe{
   position: absolute;
-  right: 6em;
+  right: 3.4em;
   bottom: 6.7em;
 }
 .subscribe p{
   color: var(--main-bg-color);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
   letter-spacing: 0.8pt;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.7em;
 }
 .subscr-box{
   width: 22em;
@@ -457,15 +455,11 @@ h6 {
 .overlaysubscr p{
   color: rgb(128, 126, 126);
   font-size: 14px;
-
 }
-
-
-
 .copyright{
   position: absolute;
   bottom: 2em;
-  left: 5.5em;
+  left: 3.5em;
 }
 .copyright p{
  font-size: 12px;
