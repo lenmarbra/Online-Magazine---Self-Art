@@ -347,27 +347,6 @@
   }
 }
 
-
-
-/* #title-article-area{
-  position: absolute;
-  top: 30em;
-  left: 7.8em;
-  z-index: 4;
-} */
-#article-section{
-  height: 70em;
-  max-width: 65.5em;
-  position: absolute;
-  left: 22.2em;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1.6em;
-  justify-items: center;
-  align-items: center;
-
-}
-
 .greybox {
   background-color: #b3b0b0;
   position: absolute;
@@ -378,34 +357,25 @@
   top: 372.6em;
   z-index: -2;
 }
+#article-section{
+  width: 45em;
+  position: absolute;
+  top: 380em;
+  left: 18em;
 
-
-/* -----------------CARD------------------- */
-    
+  display: flex;
+  justify-content:space-between;
+  justify-items: center;
+  align-items: center;
+}
 .card {
-  position: absolute;
   width: 300px;
-  height: 300px;
-  margin: 1em;
-  top: 363em;
+  height: 300px; 
+  display: inline-block;
   box-shadow: 2px 6px 12px #b3b0b0;
+  z-index: 5;
+  position: relative;
 }
-
-.img1 {
-  position: absolute;
-  top: 371.5em;
-  left: 375px;
-}
-
-.img2 {
-  position: absolute;
-  top: 371.5em;
-  left:-415px;
-}
-
-
-
-
 .image {
   display: block;
   width: 100%;
@@ -423,6 +393,17 @@
   transition: .5s ease;
   background-color: white;
 }
+.img1 {
+  display: inline-block;
+  position: absolute;
+  top: 7.5em;
+  left: 21.7em;
+}
+.img2 {
+ display: inline-block;
+}
+
+
 .card:hover .overlay {
   opacity: 1;
 }
@@ -462,7 +443,6 @@ a{
   text-decoration: none;
   color: var(--main-txt-color)
 }
-
 .other p {
   position: absolute;
   width: 700px;
@@ -470,9 +450,6 @@ a{
   left:27.5%;
   z-index: 7;
 }
-
-
-
 .quote12 {
   font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
   line-height: 1.4;
@@ -480,7 +457,6 @@ a{
   width: 400px;
   top: 100px;
 }
-
 .print {
   width: 10%;
   position: absolute;
@@ -489,17 +465,4 @@ a{
 }
 
 
-/* --------Quote Area------- */
 
-.quote{
-  width: 18em;
-  position: absolute;
-  top: 63.5em;
-  left: 28%;
-  font-size: 40px;
-  line-height: 1.5;
-}
-
-.quote span{
-  font-size: 30px;
-}

@@ -8,9 +8,9 @@
   }
   
   :root{
-    —main-bg-color: #fbf9f9;
-    —main-txt-color: #1a1a1a;
-    —second-txt-color: #548a89;
+    -—main-bg-color: #fbf9f9;
+    -—main-txt-color: #1a1a1a;
+    -—second-txt-color: #548a89;
   }
   
   /* ——Fonts & Sizes——— */
