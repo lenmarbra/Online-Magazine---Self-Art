@@ -1,15 +1,4 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
 
-:root{
-  --main-bg-color: #E5E3E3;
-  --main-txt-color: #1a1a1a;
-  --second-txt-color: #548a89;
-}
-
-/* -----Fonts & Sizes------ */
 
 /* magazine-title */
 h1{
@@ -19,6 +8,14 @@ h1{
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+/*quote*/
+p{
+  font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  line-height: 1.6;
+  max-width: 100%;
+  color: var(--second-txt-color-color);
+}
 @media only screen and (max-width: 400px){
   h1{
     font-size: 45px;
@@ -27,105 +24,11 @@ h1{
   }
   }
 
-/* article-titles */
-h2{
-  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  font-size: 70px;
-  font-weight: 400;
-}
-
-/* sub-titles */
-h3{
-  font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
-  font-size: 40px;
-  color: var(--second-txt-color-color);
-}
-
-/* CTA -> Back to top + Articles */
-h4{
-  font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
-  font-size: 30px;
-  font-weight: 500;
-  color: var(--second-txt-color-color);
-}
-
-/* paragraphs */
-p{
-  font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
-  font-size: 24px;
-  line-height: 1.6;
-  color: var(--second-txt-color-color);
-}
-
-/* captions */
-.captions {
-  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  font-size: 18px;
-  color: var(--second-txt-color-color);
-}
-
-a{
-  cursor: -moz-grab;
-  margin: 0;
-}
-
 body{
   min-height: 140em;
   overflow-x: hidden;
   background-color: rgba(129, 115, 115, 0.226);
 }
-
-
-/* ------Navigation------ */
-
-/* #top-of-page{
-  position: fixed;
-} */
-
-.logo{
-    position: fixed;
-    top: 2em;
-    left: 2.9em;
-    height: 5em;
-    z-index: 3;
-}
-.logo:hover{
-  background-color: transparent;
-}
-
-nav{
-  margin: 2.5em 2em 1.5em auto;
-  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  position: fixed;
-  right: 1em; 
-}
-
-nav a{
-  padding: 2em 0.2em;
-  text-decoration: none;
-  color: var(--main-txt-color);  
-  font-size: 16px;
-  text-transform: uppercase;
-}
-
-.hb{
-  top: 1.5em;
-}
-
-
-/* ------ Mobile - Navigation ------ */
-
-@media only screen and (max-width: 400px){
-  .logo{
-    top: 1.5em;
-    left: 1.5em;
-    height: 3em;
-  }
-  nav{
-    display: none;
-  }
-}
-
 
 /* ------Top Area------ */
 
@@ -246,12 +149,6 @@ nav a{
 }
 /* ------Articles area------ */
 
-/* #title-article-area{
-  position: absolute;
-  top: 30em;
-  left: 7.8em;
-  z-index: 4;
-} */
 #article-section{
   height: 70em;
   max-width: 65.5em;
@@ -295,14 +192,12 @@ nav a{
   opacity: 1;
 }
 .text {
-  font-size: 16px;
-  position: absolute;
-  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  color: var(--second-txt-color-color);
-  /* margin: 2.4em 1.9em 1.9em 2.5em; */
-  margin: 2.4em;
-  text-align: left;
+  max-width: 13em;  
+  margin-left: 3em;
+  margin-top: 3em;
+
 }
+
 .text h5{
   font-size: 21px;
   font-weight: lighter;
@@ -356,121 +251,3 @@ h6 {
   font-weight: 600;
 }
 
-/* -------Footer------- */
-
-.black-area{
-  width: 100%;
-  height: 15em;
-  background-color: #1a1a1a;
-  position: relative;
-  top: 95em;
-  box-sizing: border-box;
-}
-.black-area:before{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  content:'';
-  background: inherit;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform-origin: bottom right;
-  transform: skewY(6deg);
-}
-.arrowup{
-  position: absolute;
-  top: -6em;
-  left: 4.8em;
-  z-index: 7;
-}
-.nav-footer{
-  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  position: absolute;
-  left: 1em;
-  bottom: 6.55em;
-  display:flex;
-  justify-content: space-between;
-  z-index: 7;
-}
-.nav-footer li{
-  margin: 1em 5em 0 0;
-  list-style: none;
-}
-.nav-footer ul li a{
-  text-decoration: none;
-  color: var(--main-bg-color);  
-  font-size: 16px;
-  font-weight: 200;
-  text-transform: uppercase;
-}
-.social-icons{
-  position: absolute;
-  top: 3.1em;
-  left: 38.7%;
-  background-color: transparent;
-}
-.social-icons a{
-  padding: 2em;
-  background-color: transparent;
-}
-.social-icons img:hover{
-  background-color: transparent;
-}
-.subscribe{
-  position: absolute;
-  right: 3.4em;
-  bottom: 6.7em;
-}
-.subscribe p{
-  color: var(--main-bg-color);
-  font-size: 18px;
-  font-weight: 300;
-  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  letter-spacing: 0.8pt;
-  margin-bottom: 0.7em;
-}
-.subscr-box{
-  width: 22em;
-  height: 3em;
-  border: solid 1px white;
-  z-index: 7;
-}
-.overlaysubscr {
-  position: absolute;
-  top: 3.4em;
-  bottom: 0;
-  left: 1em;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: none;
-}
-.subscr-box:hover .overlaysubscr {
-  opacity: 1;
-}
-.overlaysubscr p{
-  color: rgb(128, 126, 126);
-  font-size: 14px;
-}
-.copyright{
-  position: absolute;
-  bottom: 2em;
-  left: 3.5em;
-}
-.copyright p{
- font-size: 12px;
- color: var(--main-bg-color);
- font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-}
-
-
-/* ------ Mobile - Animation off ------ */
-@media only screen and (max-width: 400px){
-  .animationoff{
-    display: none;
-  }
-}
