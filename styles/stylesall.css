@@ -8,6 +8,10 @@
   --main-txt-color: #1a1a1a;
   --second-txt-color: #548a89;
 }
+body{
+  min-height: 140em;
+  overflow-x: hidden;
+}
 
 /* article-titles */
 h2{
@@ -92,8 +96,9 @@ top: 1.5em;
 
 .rectangle {
   position: absolute;
+  width: 44%;
   margin-left: 0;
-  top: 8em;
+  top: 11em;
   z-index: 1;
 }
 
@@ -150,7 +155,7 @@ top: 1.5em;
   position: absolute;
   top: 6em;
   left: 19.8em;
-  z-index: 1;
+  z-index: 4;
   display: flex;
   justify-content: space-between;
   justify-items: center;
@@ -190,6 +195,7 @@ top: 1.5em;
   opacity: 0;
   transition: .5s ease;
   background-color: white;
+  z-index: 0;
 }
 .img1 {
   display: inline-block;
