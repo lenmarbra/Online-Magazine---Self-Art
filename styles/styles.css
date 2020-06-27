@@ -132,7 +132,7 @@ body{
   transform: skewY(-8deg);
 }
 .bgimg{
-  background-image: url(.../images/bg/bgdesktopone.svg);
+  background-image: url(images/bg/bgdesktopone.svg);
   width: 100%;
   height: 1034px;
   background-repeat: no-repeat;
@@ -232,22 +232,35 @@ h6 {
 /* --------Quote Area------- */
 
 .quote{
-  width: 15em;
+  width: 20em;
   position: absolute;
-  top: 63em;
-  left: 29.5%;
+  top: 64em;
+  left: 20.5%;
   font-size: 40px;
   line-height: 1.5;
   font-family: 'montserrat', 'raleway regular', 'helvetica regular', sans-serif;
-  /* text-transform: uppercase;  */
   font-weight: 600;
+  text-align: center;
 }
-
 .quote span{
   font-size: 23px;
-  margin-left: 67%;
+  margin-left: 69%;
   line-height: 3;
   font-family: 'montserrat', 'raleway regular', 'helvetica regular', sans-serif;
   font-weight: 600;
+}
+.quotationleft{
+  position: absolute;
+  top: 160em;
+  left: 22.8%;
+  z-index: 8;
+  opacity: 0.9;
+}
+.quotationright{
+  position: absolute;
+  top: 164em;
+  left: 74.2%;
+  z-index: 8;
+  opacity: 0.9;
 }
 
