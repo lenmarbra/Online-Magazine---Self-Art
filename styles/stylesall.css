@@ -9,44 +9,42 @@
   --second-txt-color: #548a89;
 }
 
-  /* article-titles */
-  h2{
-    font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
-    font-size: 60px;
-    font-weight: 400;
-    max-width: 30%;
-  }
+/* article-titles */
+h2{
+  font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  max-width: 30%;
+  color: var(--main-txt-color);
+}
 
-  /* sub-titles */
-  h3{
-    font-family: ‘lucida std roman’, ‘itc stone informal’, Georgia, Times, ‘Times New Roman’, serif;
-    font-size: 20px;
-    color: var(———second-txt-color-color);
-  }
+/* sub-titles */
+h3{
+  font-family: ‘lucida std roman’, ‘itc stone informal’, Georgia, Times, ‘Times New Roman’, serif;
+  font-size: 20px;
+  color: var(--main-txt-color);
+}
 
 /* CTA -> Back to top + Articles */
 h4{
   font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
   font-size: 30px;
   font-weight: 500;
-  color: var(--second-txt-color-color);
+  color: var(--main-txt-color);
 }
-
 /* paragraphs */
- p{
-  font-family: ‘lucida std roman’, ‘itc stone informal’, Georgia, Times, ‘Times New Roman’, serif;
-  font-size: 23px;
-  line-height: 1.6;
-  max-width: 30%;
-  color: var(———second-txt-color-color);
+p{
+font-family: ‘lucida std roman’, ‘itc stone informal’, Georgia, Times, ‘Times New Roman’, serif;
+font-size: 20px;
+line-height: 1.6;
+color: var(--main-txt-color);
 }
 /* captions */
 .captions {
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
   font-size: 18px;
-  color: var(--second-txt-color-color);
+  color: var(--main-txt-color);
 }
-
 a{
   cursor: -moz-grab;
   margin: 0;
@@ -63,7 +61,6 @@ a{
 .logo:hover{
 background-color: transparent;
 }
-
 nav{
 margin: 2.5em 2em 1.5em auto;
 font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
@@ -83,37 +80,166 @@ text-transform: uppercase;
 top: 1.5em;
 }
 
-/* --------Article content-------- */
+/* --------top area-------- */
+
 .cover {
   position: absolute;
   width: 50%;
-  top: 150px;
+  top: 170px;
   left: 625px;
+  z-index: 2;
 }
 
 .rectangle {
   position: absolute;
   margin-left: 0;
-  top: 7em;
+  top: 8em;
   z-index: 1;
 }
 
 .article {
   position: absolute;
   left: 180px;
-  top: 310px;
+  top: 330px;
   z-index: 1;
 }
 
 .special {
   position: absolute;
-  top: 460px;
+  top: 479px;
   left: 180px;
   font-weight: 100;
   font-size: 14px;
 }
-/* -------Footer------- */
 
+/* ------- main content area---------- */
+#artcontent{
+  position: absolute;
+  top: 20em;
+  left: 3em;
+  right: 3em;
+}
+
+/* ----------grey area----------- */
+
+.greybox {
+  background-color: #b3b0b0;
+  position: absolute;
+  opacity: .35;
+  margin-left: 0;
+  width: 100%;
+  height: 800px;
+  top: 372.6em;
+  z-index: -2;
+}
+.greybox:before{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content:'';
+  background: inherit;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom left;
+  transform: skewY(-6deg);
+}
+.greybox #article-section{
+  width: 45em;
+  position: absolute;
+  top: 6em;
+  left: 19.8em;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+
+/* ------cards------ */
+
+.other p {
+  position: absolute;
+  width: 700px;
+  top: 729%;
+  left: 26.98%;
+}
+
+.card {
+  width: 300px;
+  height: 300px; 
+  display: inline-block;
+  box-shadow: 2px 6px 12px #b3b0b0;
+  position: relative;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+.img1 {
+  display: inline-block;
+  position: absolute;
+  top: 7.5em;
+  left: 21.7em;
+}
+.img2 {
+ display: inline-block;
+}
+.card:hover .overlay {
+  opacity: 1;
+}
+.text {
+  font-size: 16px;
+  position: absolute;
+  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
+  color: black;
+  margin-left: 3em;
+  margin-top: 3em;
+  text-align: left;
+  max-width: 23em;
+}
+.text h5{
+  font-size: 21px;
+  width: 200px;
+  font-weight: lighter;
+  margin-bottom: 1em;
+  line-height: 1.3;
+}
+.text p{
+  font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.4;
+  font-size: 16px;
+  letter-spacing: .3px; 
+}
+h6 {
+  text-transform: uppercase;
+  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: .8em;
+}
+a{
+  text-decoration: none;
+  color: var(--main-txt-color)
+}
+
+
+/* -------Footer------- */
 .black-area{
   width: 100%;
   height: 15em;
@@ -224,107 +350,7 @@ top: 1.5em;
  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
 }
 
-.greybox {
-  background-color: #b3b0b0;
-  position: absolute;
-  opacity: .35;
-  margin-left: 0;
-  width: 100%;
-  height: 800px;
-  top: 372.6em;
-  z-index: -2;
-}
-.greybox #article-section{
-  width: 45em;
-  position: absolute;
-  top: 6em;
-  left: 19.8em;
-  z-index: 8;
-  display: flex;
-  justify-content:space-between;
-  justify-items: center;
-  align-items: center;
-}
-.card {
-  width: 300px;
-  height: 300px; 
-  display: inline-block;
-  box-shadow: 2px 6px 12px #b3b0b0;
-  z-index: 5;
-  position: relative;
-}
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: white;
-}
-.img1 {
-  display: inline-block;
-  position: absolute;
-  top: 7.5em;
-  left: 21.7em;
-}
-.img2 {
- display: inline-block;
-}
 
 
-.card:hover .overlay {
-  opacity: 1;
-}
-.text {
-  font-size: 16px;
-  position: absolute;
-  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  color: black;
-  /* margin: 2.4em 1.9em 1.9em 2.5em; */
-  /* margin: 2.4em; */
-  margin-left: 3em;
-  margin-top: 3em;
-  text-align: left;
-}
-.text h5{
-  font-size: 21px;
-  width: 200px;
-  font-weight: lighter;
-  margin-bottom: 1em;
-  line-height: 1.3;
-}
-.text p{
-  font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
-  line-height: 1.4;
-  font-size: 16px;
-  width: 650px;
-  letter-spacing: .3px; 
-}
-h6 {
-  text-transform: uppercase;
-  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  font-size: 12px;
-  font-weight: lighter;
-  margin-top: .8em;
-}
-a{
-  text-decoration: none;
-  color: var(--main-txt-color)
-}
-.other p {
-  position: absolute;
-  width: 700px;
-  top: 261em;
-  left:27.5%;
-  z-index: 7;
-}
+
 
