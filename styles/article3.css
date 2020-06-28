@@ -64,7 +64,7 @@
   }
 
   /* ------Navigation------ */
-
+/* 
 .logo{
     position: fixed;
     top: 10px;
@@ -113,7 +113,7 @@
     top: 150px;
     left: 625px;
     
-  }
+  } */
 
   .special {
     position: absolute;
@@ -356,7 +356,7 @@
 
 .comment7 {
   position: absolute;
-  top: 7430px;
+  top: 7425px;
   left: 180px;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
@@ -382,8 +382,8 @@
 
 .comment8 {
   position: absolute;
-  top:8245px;
-  left: 75.5%;
+  top:8209px;
+  left: 74.5%;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
@@ -398,15 +398,15 @@
 
 .comment9 {
   position: absolute;
-  top:9100px;
-  left: 74%;
+  top:9070px;
+  left: 72.5%;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
 
 .comment10 {
   position: absolute;
-  top: 9745px;
+  top: 9709px;
   left: 180px;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
@@ -414,15 +414,15 @@
 
 .comment11 {
   position: absolute;
-  top:10770px;
-  left: 74%;
+  top: 765.5em;
+  left: 72.7%;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
 
 .comment12 {
   position: absolute;
-  top:11695px;
+  top:11660px;
   left: 180px;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
@@ -430,15 +430,15 @@
 
 .comment13 {
   position: absolute;
-  top:12580px;
-  left: 74%;
+  top: 895.5em;
+  left: 73.5%;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
 }
 
 .comment14 {
   position: absolute;
-  top:13275px;
+  top:13240px;
   left: 180px;
   font-size: 14px;
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
@@ -546,21 +546,7 @@
 }
 
 
-/* ------ Mobile - Animation off ------ */
-@media only screen and (max-width: 400px){
-  .animationoff{
-    display: none;
-  }
-}
 
-
-
-/* #title-article-area{
-  position: absolute;
-  top: 30em;
-  left: 7.8em;
-  z-index: 4;
-} */
 #article-section{
   height: 70em;
   max-width: 65.5em;
@@ -680,19 +666,5 @@ a{
 
 
 
-/* --------Quote Area------- */
-
-.quote{
-  width: 18em;
-  position: absolute;
-  top: 63.5em;
-  left: 28%;
-  font-size: 40px;
-  line-height: 1.5;
-}
-
-.quote span{
-  font-size: 30px;
-}
 
 
