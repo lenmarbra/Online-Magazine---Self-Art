@@ -505,21 +505,7 @@
 }
 
 
-/* ------ Mobile - Animation off ------ */
-@media only screen and (max-width: 400px){
-  .animationoff{
-    display: none;
-  }
-}
-
-
-
-/* #title-article-area{
-  position: absolute;
-  top: 30em;
-  left: 7.8em;
-  z-index: 4;
-} */
+/* -------grey area-------- */
 #article-section{
   height: 70em;
   max-width: 65.5em;
@@ -633,33 +619,3 @@ a{
   color: var(--main-txt-color)
 }
 
-
-/* .title12 {
-  font-size: 16px;
-  position: absolute;
-  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  color:black;
-  text-align: left;
-  width: 200px;
-} */
-.print {
-  width: 10%;
-  position: absolute;
-  top: 802em;
-  left: 10%;
-}
-
-/* --------Quote Area------- */
-
-.quote{
-  width: 18em;
-  position: absolute;
-  top: 63.5em;
-  left: 28%;
-  font-size: 40px;
-  line-height: 1.5;
-}
-
-.quote span{
-  font-size: 30px;
-}
