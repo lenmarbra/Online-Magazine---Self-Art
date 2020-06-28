@@ -97,7 +97,7 @@ body{
   height: 85em;
   background-color: #b7c5c5;
   position: relative;
-  top: 47.2em;
+  top: 46.9em;
   z-index: -1;
   box-sizing: border-box;
   padding: 30px; 
@@ -132,9 +132,6 @@ body{
   transform: skewY(-8deg);
 }
 .bgimg{
-  /* width: 100%;
-  height: 1034px;
-  background-repeat: no-repeat; */
   opacity: 60%;
   position: fixed;
   top: 0;   
@@ -194,9 +191,7 @@ body{
   max-width: 13em;  
   margin-left: 3em;
   margin-top: 3em;
-
 }
-
 .text h5{
   font-size: 21px;
   font-weight: lighter;
