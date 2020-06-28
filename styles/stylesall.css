@@ -36,7 +36,7 @@ nav{
   left: 0;
   width: 375px;
   height: 6em;
-  background-color: #fff;
+  background-color: var(--main-bg-color);
   opacity: 100%;
   z-index: 1;
   display: flex;

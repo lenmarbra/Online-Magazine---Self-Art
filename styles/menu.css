@@ -5,7 +5,7 @@ body{
 }
 
 .menu-list{
-  font-size: 4em;
+  font-size: 60px;
   line-height: 1.5em;
   list-style: none;
   position: absolute;
@@ -29,11 +29,10 @@ body{
 
 @media only screen and (max-width: 400px){
   body{
-    background-color: #fff;
+    background-color: var(--main-bg-color);
     text-transform: uppercase;
     font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
   }
-
   .menu-list{
     font-size: 2em;
     line-height: 2em;
@@ -43,13 +42,16 @@ body{
     left: 0.3em;
     z-index: 8;
   }
-  
   .menu-list li{
     margin: 0 0 .5em 0;
   }
-  
   .menu-list li a{
     color: var(--main-txt-color);
+  }
+  .close{
+    position: absolute;
+    top: 3em;
+    right: 0em;
   }
 
 }
