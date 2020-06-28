@@ -132,11 +132,10 @@ body{
   transform: skewY(-8deg);
 }
 .bgimg{
-  background-image: url(images/bg/bgdesktopone.svg);
-  width: 100%;
+  /* width: 100%;
   height: 1034px;
-  background-repeat: no-repeat;
-  opacity: 70%;
+  background-repeat: no-repeat; */
+  opacity: 60%;
   position: fixed;
   top: 0;   
   left: 0;
