@@ -11,9 +11,9 @@
 
 @font-face {
   font-family: "Montserrat, lucidea std roman";
-  src: url("https://selfandart.netlify.app/");
-  src: url("https://selfandart.netlify.app/") format("woff"),
-  url("https://selfandart.netlify.app/") format("otf"),
+  src: url("http://selfandart.netlify.app/");
+  src: url("http://selfandart.netlify.app/") format("woff"),
+  url("http://selfandart.netlify.app/") format("otf"),
   }
 
 body{
