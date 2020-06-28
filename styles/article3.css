@@ -41,7 +41,7 @@
   /* paragraphs */
   p{
     font-family: ‘lucida std roman’, ‘itc stone informal’, Georgia, Times, ‘Times New Roman’, serif;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 1.6;
     max-width: 30%;
     color: var(———second-txt-color-color);
@@ -63,57 +63,6 @@
     margin: 0;
   }
 
-  /* ------Navigation------ */
-/* 
-.logo{
-    position: fixed;
-    top: 10px;
-    left: 55px;
-    height: 6em;
-    z-index: 3;
-  }
-  .logo:hover{
-    background-color: transparent;
-  }
-  
-  nav{
-    margin: 2.5em 4em 1.5em auto;
-    position: fixed;
-    right: -45px;
-  }
-  
-  nav a{
-    display: inline;
-    margin: 1.5em;
-    padding: 2em 0;
-    text-decoration: none;
-    color: var(--main-txt-color);  
-    font-size: 16px;
-    text-transform: uppercase;
-  }
-
-  .rectangle {
-    position: absolute;
-    margin-left: 0;
-    top: 7em;
-    z-index: 1;
-  }
-
-  .article {
-    position: absolute;
-    width: 50%;
-    left: 180px;
-    top: 320px;
-    z-index: 1;
-  }
-
-  .cover {
-    position: absolute;
-    width: 49%;
-    top: 150px;
-    left: 625px;
-    
-  } */
 
   .special {
     position: absolute;
@@ -125,7 +74,8 @@
 
   .intro {
     position:absolute;
-    font-size: 24px;
+    font-size: 23px;
+    font-weight: 510;
     margin-left: 180px;
     top: 760px;
   }
@@ -133,7 +83,7 @@
   .header1 {
      font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
       position: absolute;
-      font-size: 32px;
+      font-size: 28px;
       left: 180px;
       top: 1617px;
   }
@@ -171,7 +121,7 @@
 
 .header2 {
      position: absolute;
-     font-size: 32px;
+     font-size: 28px;
      left: 61%;
      top: 3230px;
  }
@@ -208,7 +158,7 @@
 
 .header3 {
     position: absolute;
-    font-size: 32px;
+    font-size: 28px;
     left: 180px;
     top: 4880px;  
 }
@@ -253,7 +203,7 @@
 
 .header4 {
     position: absolute;
-    font-size: 32px;
+    font-size: 28px;
     left: 61%;
     top: 6670px; 
 }
@@ -282,7 +232,7 @@
 
 .header5 {
     position: absolute;
-    font-size: 32px;
+    font-size: 28px;
     left: 180px;
     top: 8320px;
 }
@@ -327,7 +277,7 @@
 
 .header6 {
     position: absolute;
-    font-size: 32px;
+    font-size: 28px;
     left: 180px;
     top: 9825px;
 }
@@ -369,7 +319,7 @@
 
 .header7 {
     position: absolute;
-    font-size: 32px;
+    font-size: 28px;
     left: 180px;
     top: 11780px;  
 }
@@ -615,13 +565,15 @@
   color: black;
   /* margin: 2.4em 1.9em 1.9em 2.5em; */
   /* margin: 2.4em; */
-  margin-left: 3em;
+  margin-left: 2.5em;
   margin-top: 3em;
+  margin-right: 2em;
   text-align: left;
+  max-width: 20em;
 }
 .text h5{
   font-size: 21px;
-  width: 200px;
+  max-width: 20em;
   font-weight: lighter;
   margin-bottom: 1em;
   line-height: 1.3;
@@ -630,7 +582,7 @@
   font-family: 'lucida std roman', 'itc stone informal', Georgia, Times, 'Times New Roman', serif;
   line-height: 1.4;
   font-size: 16px;
-  width: 650px;
+  max-width: 20em;
   letter-spacing: .3px; 
 }
 h6 {
@@ -658,9 +610,9 @@ a{
 
 .other p {
   position: absolute;
-  width: 700px;
-  top: 588em;
-  left:27.5%;
+  max-width: 30em;
+  top: 676.5em;
+  left:27.6%;
   z-index: 7;
 }
 
