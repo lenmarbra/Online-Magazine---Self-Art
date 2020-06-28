@@ -1,5 +1,4 @@
 
-
 /* magazine-title */
 h1{
   font-family: 'montserrat', 'raleway bold', 'helvetica bold', sans-serif;
@@ -288,7 +287,7 @@ h6 {
 .quote{
   width: 20em;
   position: absolute;
-  top: 64em;
+  top: 71.5em;
   left: 20.5%;
   font-size: 40px;
   line-height: 1.5;
@@ -305,21 +304,20 @@ h6 {
 }
 .quotationleft{
   position: absolute;
-  top: 160em;
+  top: 178.5em;
   left: 22.8%;
   z-index: 8;
   opacity: 0.9;
 }
 .quotationright{
   position: absolute;
-  top: 164em;
+  top: 182.5em;
   left: 74.2%;
   z-index: 8;
   opacity: 0.9;
 }
 
 @media only screen and (max-width: 400px){
-
 
 .quote{
   display: none;
