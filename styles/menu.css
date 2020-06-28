@@ -2,7 +2,6 @@ body{
   background-color: var(--main-bg-color);
   text-transform: uppercase;
   font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
-  font-size: 12px;
 }
 
 .menu-list{
@@ -19,11 +18,38 @@ body{
 }
 
 .menu-list li a{
-  color: #333;
+  color: var(--main-txt-color);
 }
 
-/* #menu-button{
-  position: relative;
-  top: 20px;
-  left: 20px;
-} */
+.close{
+  position: absolute;
+  top: -1em;
+  right: 0.5em;
+}
+
+@media only screen and (max-width: 400px){
+  body{
+    background-color: #fff;
+    text-transform: uppercase;
+    font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
+  }
+
+  .menu-list{
+    font-size: 2em;
+    line-height: 2em;
+    list-style: none;
+    position: absolute;
+    top: 3.5em;
+    left: 0.3em;
+    z-index: 8;
+  }
+  
+  .menu-list li{
+    margin: 0 0 .5em 0;
+  }
+  
+  .menu-list li a{
+    color: var(--main-txt-color);
+  }
+
+}
