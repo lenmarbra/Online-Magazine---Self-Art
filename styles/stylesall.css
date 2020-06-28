@@ -59,11 +59,6 @@ nav a{
   display: inline-block;
 }
 
-.logo{
-  margin-top: -0.5em;
-  margin-left: 0.5em;
-  height: 2.5em;
-}
 
 .hb{
   position: inherit;
@@ -72,8 +67,8 @@ nav a{
   display: block;
   margin-left: 21.5em;
   margin-top: 1.5em;
-  height: 2.5em;
-  width: 2.5em;
+  height: 2em;
+  width: 2em;
   z-index: 5;
 }
 }
@@ -122,9 +117,9 @@ a{
 /* ------Navigation------ */
 .logo{
   position: fixed;
-  top: 1em;
+  top: 2em;
   left: 2.9em;
-  height: 5em;
+  height: 3.5em;
   z-index: 3;
 }
 .logo:hover{
@@ -145,7 +140,7 @@ text-transform: uppercase;
 }
 .hb{
 top: 1.5em;
-height: 4em;
+height: 2.5em;
 }
 @media only screen and (max-width: 400px){
   .logo{
