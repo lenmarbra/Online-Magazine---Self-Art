@@ -8,6 +8,14 @@
   --main-txt-color: #1a1a1a;
   --second-txt-color: #548a89;
 }
+
+@font-face {
+  font-family: "Montserrat, lucidea std roman";
+  src: url("https://selfandart.netlify.app/");
+  src: url("https://selfandart.netlify.app/") format("woff"),
+  url("https://selfandart.netlify.app/") format("otf"),
+  }
+
 body{
   min-height: vh;
   overflow-x: hidden;
