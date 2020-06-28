@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67" height="60" viewBox="0 0 67 60">
   <defs>
-    <clipPath id="clip-Hamburger">
-      <rect width="60" height="60"/>
+    <clipPath id="clip-Hamburger_1">
+      <rect width="67" height="60"/>
     </clipPath>
   </defs>
-  <g id="Hamburger" clip-path="url(#clip-Hamburger)">
-    <g id="Group_393" data-name="Group 393" transform="translate(1 -12.175)">
-      <g id="Group_342" data-name="Group 342" transform="translate(3 41.847)">
+  <g id="Hamburger_1" data-name="Hamburger – 1" clip-path="url(#clip-Hamburger_1)">
+    <g id="Group_393" data-name="Group 393" transform="translate(1 -13.475)">
+      <g id="Group_342" data-name="Group 342" transform="translate(3 43.441)">
         <g id="Group_332" data-name="Group 332" transform="translate(0)">
-          <line id="Line_65" data-name="Line 65" x2="52.96" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="3"/>
+          <line id="Line_65" data-name="Line 65" x2="58.715" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="5"/>
         </g>
       </g>
-      <g id="Group_391" data-name="Group 391" transform="translate(3 26.838)">
+      <g id="Group_391" data-name="Group 391" transform="translate(3 26.475)">
         <g id="Group_332-2" data-name="Group 332" transform="translate(0)">
-          <line id="Line_65-2" data-name="Line 65" x2="53" transform="translate(0 0.337)" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="3"/>
+          <line id="Line_65-2" data-name="Line 65" x2="59" transform="translate(0 0)" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="5"/>
         </g>
       </g>
-      <g id="Group_392" data-name="Group 392" transform="translate(3 56.856)">
+      <g id="Group_392" data-name="Group 392" transform="translate(3 60.475)">
         <g id="Group_332-3" data-name="Group 332" transform="translate(0)">
-          <line id="Line_65-3" data-name="Line 65" x2="52.96" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="3"/>
+          <line id="Line_65-3" data-name="Line 65" x2="58.715" fill="none" stroke="#1a1a1a" stroke-miterlimit="10" stroke-width="5"/>
         </g>
       </g>
     </g>
