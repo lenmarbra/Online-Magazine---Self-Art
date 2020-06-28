@@ -16,19 +16,30 @@ p{
   max-width: 100%;
   color: var(--second-txt-color-color);
 }
-@media only screen and (max-width: 400px){
-  h1{
-    font-size: 45px;
-    font-weight: 700;
-    letter-spacing: 1px;
-  }
-  }
-
 body{
   min-height: 140em;
   overflow-x: hidden;
   background-color: rgba(129, 115, 115, 0.226);
 }
+@media only screen and (max-width: 400px){
+  h1{
+    font-size:43px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  body{
+    min-height: 140em;
+    width: 375px;
+    overflow-x: hidden;
+  }
+  .logo{
+    position: fixed;
+    top: 4em;
+    left: 0.5em;
+    height: 3em;
+  }
+ 
+  }
 
 /* ------Top Area------ */
 
@@ -59,34 +70,37 @@ body{
 }
 .arrowdown{
   position: absolute;
-  top: 45.5em;
+  top: 42em;
   left: 2.9em;
 }
 
 /* ------ Mobile - Top Area ------ */
 @media only screen and (max-width: 400px){
   .title{
-    top: 15.5%;
-    left: 5%;
+    top: 32%;
+    left: 12.5%;
     z-index: -5;
   }
   .line{
-    height: 0.4em;
-    width: 20em; 
-    top: 19%;
-    left: 3%;
+    height: 0.5em;
+    width: 18em; 
+    top: 38.5%;
+    left: 9.5%;
     z-index: -4;
   }
   .circle{
-    height: 6em;
-    width: 6em;
-    top: 41.5%;
-    left: 10%;
+    position: fixed;
+    height: 5em;
+    width: 5em;
+    top: 39.5%;
+    left: 34%;
   }
   .arrowdown{
     position: absolute;
     top: 37em;
-    left: 1em;
+    left: 9.5em;
+    height: 3em;
+    opacity: 70%;
   }
 }
 
@@ -94,7 +108,7 @@ body{
 
 .green-area{
   width: 100%;
-  height: 85em;
+  height: 105em;
   background-color: #b7c5c5;
   position: relative;
   top: 46.9em;
@@ -139,8 +153,23 @@ body{
   z-index: -7;
 }
 
-/* ------ Mobile - Background Green ------ */
+/* ------ Mobile - Background Green + pattern ------ */
 @media only screen and (max-width: 400px){
+  .green-area{
+    width: 100vp;
+    height: 260em;
+    background-color: #b7c5c5;
+    position: relative;
+    top: 24.48em;
+    z-index: -1;
+    box-sizing: border-box;
+    padding: 30px; 
+    margin-bottom: 10em;
+  }
+  .bgimg{
+    width: 600px;
+    height: 500px;
+  }
   
 }
 /* ------Articles area------ */
@@ -155,6 +184,7 @@ body{
   flex-wrap: wrap;
   padding: 1.6em;
 }
+
 
 /* -----------------CARD------------------- */
     
@@ -223,8 +253,38 @@ h6 {
   opacity: 50%;
 }
 
-/* --------Quote Area------- */
+@media only screen and (min-width: 400px){
+.mobile-art-img{
+  display: none;
+}
+#article-area-mobile{
+  display: none;
+}}
 
+/* ------ Mobile - Articles area ---------------------------- */
+@media only screen and (max-width: 400px){
+  #article-section{
+    display:none;
+  }
+  #article-area-mobile{
+    height: 70em;
+    max-width: 65.5em;
+    position: absolute;
+    top: 50em;
+    left: 1.1em;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.6em;
+  }
+  .mobile-art-img{
+    display: block;
+    height: 24em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+  }
+}
+
+/* --------Quote Area------- */
 .quote{
   width: 20em;
   position: absolute;
@@ -258,3 +318,16 @@ h6 {
   opacity: 0.9;
 }
 
+@media only screen and (max-width: 400px){
+
+
+.quote{
+  display: none;
+  }
+.quotationleft{
+  display: none;
+}
+.quotationright{
+  display: none;
+}
+}

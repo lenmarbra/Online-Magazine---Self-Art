@@ -23,11 +23,12 @@
   </nav>
 </header>
 
+
 <!-- Top Area -->
 <h1 class="title splittext">Self <span>&</span> <span>A</span><span>r</span><span>t</span></h1>
 <div class="line"></div>
 <div class="circle"></div>
-<img class="bgimg" src="images/bg/bgdesktopone.png" alt="background" height="1034px">
+<img class="bgimg" src="images/bg/bgdesktopone.png" alt="background" height="1080px">
 <img class="arrowdown" src="images/arrowdown.svg" alt="Scroll down">
 <div class="green-area"></div>
 
@@ -37,8 +38,8 @@
 
   <div class="card">
     <img src="images/articles/karenpence.png" alt="While at home" class="image">
+    <a href="#">
     <div class="overlay">
-      <a href="#">
         <div class="text">
           <h5>Karen Pence <br>Picks a Cause</h5>
           <p>For much of her childhood, RyAnn Watson has been hospitalized for excruciating flare-upsof sickle cell
@@ -163,6 +164,20 @@
   </div>
 </section>
 
+
+<!-- -----article area mobile----- -->
+<section id="article-area-mobile">
+  <a href="#"><img src="images/mobile/karenpencemob.svg" alt="Karen Pence" class="mobile-art-img"></a>
+  <a href="#"></a><img src="images/mobile/manyfacesmob.svg" alt="The many faces" class="mobile-art-img"></a>
+  <a href="#"><img src="images/mobile/artmakingmob.svg" alt="Art making" class="mobile-art-img"></a>
+  <a href="#"><img src="images/mobile/whileathomemob.svg" alt="While at home" class="mobile-art-img"></a>
+  <a href="#"><img src="images/mobile/artbiennialsmob.svg" alt="Art Biennials" class="mobile-art-img"></a>
+  <a href="#"><img src="images/mobile/emptyworldmob.svg" alt="Empty world" class="mobile-art-img"></a>
+  <a href="#"><img src="images/mobile/selfcaremob.svg" alt="Artists on self-care" class="mobile-art-img"></a>
+  <a href="#"><img src="images/mobile/streetartistsmob.svg" alt="Street artists and lockdown" class="mobile-art-img"></a>
+  <a href="#"><img src="images/mobile/kidsshapesmob.svg" alt="Kids shapes and scribbles" class="mobile-art-img"></a>
+</section>
+
 <section>
   <img class="quotationleft" src="images/quotationleft.svg" height="25px">
   <p class="quote">Art enables us to find ourselves <br>and lose ourselves at the same time.
@@ -213,6 +228,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
 
 <script>
+var mql = window.matchMedia('(min-width: 400px)');
+if(mql.matches) {
+  // media query test returning true
+
   var tl = gsap.timeline();
       tl.staggerFrom(".splittext span", 1, {opacity:0, y:80, ease:Bounce.easeOut}, 0.4);
       tl.from(".line", {y: -8, rotation: -15, x: 40, duration: 1.5, ease: "back"});
@@ -247,6 +266,37 @@ gsap.registerPlugin(ScrollTrigger)
         // toggleActions:"restart pause reverse reset"
       }
       });
+      }
+var mql = window.matchMedia('(max-width: 400px)');
+if(mql.matches) {
+  // media query test returning true
+  var tl = gsap.timeline();
+      tl.staggerFrom(".splittext span", 1, {opacity:0, y:80, ease:Bounce.easeOut}, 0.4);
+      tl.from(".line", {y: -8, rotation: -15, x: 40, duration: 1.5, ease: "back"});
+      tl.from(".title", {y: -8, rotation: -15, x: 40, duration: 1.5, ease: "back"}, "-=1.5");
+      tl.from(".arrowdown", {opacity:0, duration:1}, 3)
+
+gsap.registerPlugin(ScrollTrigger)
+
+      gsap.to(".arrowdown", {opacity: 0, duration:0.5, scrollTrigger:{
+        trigger: ".arrowdown",
+        start: "top 60%"
+        // markers: true,
+      }});
+
+      gsap.from(".logo", {opacity: 0, duration: 2, scrollTrigger: {
+        trigger: ".logo",
+        // markers: true,
+        start: "top -100"
+      }});
+
+      gsap.to("h1, .line, .circle", {opacity: 0, duration: 2, scrollTrigger: {
+        trigger: "h1, .line",
+        start: "top 0%",
+        // toggleActions:"restart pause reverse reset"
+      }
+      });
+}
 </script>
 
 </body>
