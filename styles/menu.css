@@ -1,0 +1,29 @@
+body{
+  background-color: var(--main-bg-color);
+  text-transform: uppercase;
+  font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
+  font-size: 12px;
+}
+
+.menu-list{
+  font-size: 4em;
+  line-height: 1.5em;
+  list-style: none;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+}
+
+.menu-list li{
+  margin: 0 0 .5em 0;
+}
+
+.menu-list li a{
+  color: #333;
+}
+
+/* #menu-button{
+  position: relative;
+  top: 20px;
+  left: 20px;
+} */
