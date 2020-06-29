@@ -39,8 +39,8 @@ body{
     line-height: 2em;
     list-style: none;
     position: absolute;
-    top: 3.5em;
-    left: 0em;
+    top: 3em;
+    left: 0.5em;
     z-index: 8;
   }
   .menu-list li{
@@ -51,7 +51,7 @@ body{
   }
   .close{
     position: absolute;
-    top: 2em;
+    top: 1.6em;
     left: 20em;
     height: 2em;
   }
