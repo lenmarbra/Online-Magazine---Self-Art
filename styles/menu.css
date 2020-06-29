@@ -51,8 +51,9 @@ body{
   }
   .close{
     position: absolute;
-    top: 3em;
-    right: 0em;
+    top: 2.5em;
+    left: 19em;
+    height: 2em;
   }
 
 }
