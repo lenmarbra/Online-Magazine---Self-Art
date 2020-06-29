@@ -28,52 +28,60 @@ body{
   }
   }
 
-/* nav   */
-@media only screen and (max-width: 400px){
-nav{
+
+
+
+/* ---------slide out menu---------- */
+
+.menu {
   position: fixed;
-  top: -3em;
-  left: 0;
-  width: 375px;
-  height: 6em;
-  background-color: var(--main-bg-color);
-  opacity: 100%;
-  z-index: 1;
-  display: flex;
-}
-nav:after{
-  position: absolute;
-  width: 130%;
-  height: 100%;
-  content:'';
-  background: inherit;
-  z-index: -2;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  transform-origin: top right;
-  transform: skewY(-4deg);
+  /* translate offsets the element for the giving number */
+  transform: translateX(100%);
+  /* use a transition for a particular property */
+  transition: transform 400ms ease-in;
+
+  background-color: #fff;
+  z-index: 9;
 }
-nav a{
-  display: inline-block;
+.menu-visible {
+  transform: translateX(0);
+}
+.menu-list {
+  font-size: 60px;
+  line-height: 1.5em;
+  list-style: none;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+}
+.menu-list li {
+  margin: 0 0 .5em 0;
+}
+.menu-list li a {
+  color: var(--main-txt-color);
+}
+#menu-button {
+  padding: 10px;
+
+  position: fixed;
+  top: 1.5em;
+  left: 99em;
+
+  border: 0 transparent;
+  z-index: 11;
+  background-color: transparent;
+}
+@media (max-width: 760px) {
+  .menu-list {
+    font-size: 2em;
+  }
 }
 
-
-.hb{
-  position: inherit;
-  top: 0em;
-  left: -2em; 
-  display: block;
-  margin-left: 21.5em;
-  margin-top: 1.5em;
-  height: 2em;
-  width: 2em;
-  z-index: 5;
-}
-}
-
-/* article-titles */
+/* -------article-titles---------- */
 h2{
   font-family: ‘montserrat regular’, ‘raleway regular’, ‘helvetica regular’, sans-serif;
   font-size: 60px;
@@ -119,43 +127,77 @@ a{
   position: fixed;
   top: 2em;
   left: 2.9em;
-  height: 3.5em;
+  height: 4em;
   z-index: 3;
 }
 .logo:hover{
 background-color: transparent;
 }
 nav{
-margin: 2.5em 2em 1.5em auto;
 font-family: 'montserrat regular', 'raleway regular', 'helvetica regular', sans-serif;
 position: fixed;
-right: 1em; 
+/* right: 1em;  */
 }
 nav a{
 padding: 2em 0.2em;
 text-decoration: none;
 color: var(--main-txt-color);  
-font-size: 16px;
 text-transform: uppercase;
 }
 .hb{
+position: inherit;
 top: 1.5em;
-height: 2.5em;
+left: 60em;
+margin-top: 2em;
+margin-left: 83em;
+width: 4.5%;
+z-index: 10;
 }
 @media only screen and (max-width: 400px){
   .logo{
     position: fixed;
-    top: 1.5em;
+    top: 2.7em;
     left: 0.5em;
     height: 3em;
   }
+  nav{
+    position: fixed;
+    /* top: 0%;
+    left: 0; */
+    width: 375px;
+    height: 2.5em;
+    background-color: var(--main-bg-color);
+    opacity: 100%;
+    z-index: 1;
+    display: flex;
+  }
+  nav:after{
+    position: absolute;
+    width: 130%;
+    height: 200%;
+    content:'';
+    background: inherit;
+    z-index: -2;
+    top: 0em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top right;
+    transform: skewY(-4deg);
+  }
+  nav a{
+    display: inline-block;
+  }
   .hb{
-    top: 1em;
-    left: -3em;
-    height: 3em;
-    }
-  
-}
+    position: inherit;
+    display: block;
+    margin-left: 20em;
+    margin-top: 0.5em;
+    height: 2.7em;
+    width: 2.7em;
+    z-index: 5;
+  }
+  }
 /* --------top area-------- */
 
 .cover {
