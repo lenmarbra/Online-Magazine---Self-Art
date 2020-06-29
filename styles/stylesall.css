@@ -157,7 +157,7 @@ z-index: 10;
   .logo{
     position: fixed;
     top: 2.7em;
-    left: 0.5em;
+    left: 1em;
     height: 3em;
   }
   nav{
@@ -191,7 +191,7 @@ z-index: 10;
   .hb{
     position: inherit;
     display: block;
-    margin-left: 20em;
+    margin-left: 19em;
     margin-top: 0.5em;
     height: 2.7em;
     width: 2.7em;
