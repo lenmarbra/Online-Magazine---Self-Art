@@ -16,10 +16,15 @@
 
   <header id="top-of-page">
     <a href="index.html"><img class="logo" src="images/logo/logo5.svg" alt="Self & Art logo"></a>
-    <nav>
-      <a  href="#">
-        <img class="hb" src="images/hamburger.svg" alt="menu">
-      </a> 
+    
+    <button id="menu-button"><img src="images/hamburger.svg" alt="menu"></button>
+    <nav id="menu" class="menu">
+      <ul class="menu-list">
+        <li><a href="#">SEARCH</a></li>
+        <li><a href="index.html#article-section">ARTICLES</a></li>
+        <li><a href="#">SAVED</a></li>
+        <li><a href="#">ABOUT</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -231,6 +236,17 @@
   <img class="img1" src="img/Path 103.svg" alt="">
   <img class="img2" src="img/Path 104.svg" alt="">
 </section>
-  
+
+<script>
+  // select the burger button and save it in the menuBtn variable
+  var menuBtn = document.getElementById("menu-button");
+    var menu = document.getElementById("menu");
+    // add an event to our button
+    menuBtn.addEventListener("click", openMenu);
+    // the openMenu function
+    function openMenu() {
+      menu.classList.toggle("menu-visible");
+    }
+</script> 
 </body>
 </html>

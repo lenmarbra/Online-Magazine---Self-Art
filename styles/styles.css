@@ -31,12 +31,7 @@ body{
     width: 375px;
     overflow-x: hidden;
   }
-  .logo{
-    position: fixed;
-    top: 4em;
-    left: 0.5em;
-    height: 3em;
-  }
+
  
   }
 
