@@ -3,7 +3,7 @@
   .paragraph1 {
     position: absolute;
     margin-left: 176px;
-    top: 900px;
+    top: 26em;
     max-width: 35%;
   }
 
@@ -58,7 +58,7 @@
 
 .first{
   position: absolute;
-  top: 72em;
+  top: 33em;
   left: 698px;
 }
 .artimage{
@@ -68,27 +68,27 @@
 .paragraph2 {
   position: absolute;
   margin-left: 700px;
-  top: 1740px;
+  top: 66.8em;
   max-width: 33%;
 }
 .second {
   position: absolute;
   width: 46%;
-  top: 109.5em;
+  top: 84em;
   left: 13%;    
 }
 .third {
   transform: rotate(-90deg);
   position: absolute;
   width: 57%;
-  top: 155em;
+  top: 125em;
   left: 21%;
 }
 
 .fourth {
   position: absolute;
   width: 28%;
-  top: 230em;
+  top: 195em;
   left: 61%;
   box-shadow: 2px 6px 12px #b3b0b0; 
 }
@@ -96,7 +96,7 @@
 .fifth {
   position: absolute;
   width: 28%;
-  top: 258.2em;
+  top: 223em;
   left: 61%;
   box-shadow: 2px 6px 12px #b3b0b0; 
 }
@@ -104,7 +104,7 @@
 .six {
   position: absolute;
   width: 45.8%;
-  top: 230em;
+  top: 195em;
   left: 10%;
   box-shadow: 2px 6px 12px #b3b0b0; 
 }
@@ -112,7 +112,7 @@
 .seven {
   position: absolute;
   width: 36%;
-  top: 300em;
+  top: 260em;
   left: 10%;
   box-shadow: 2px 6px 12px #b3b0b0; 
 }
@@ -120,7 +120,7 @@
 .eight {
   position: absolute;
   width: 36%;
-  top: 300em;
+  top: 260em;
   left: 55%;
   box-shadow: 2px 6px 12px #b3b0b0; 
 }
@@ -143,7 +143,7 @@
 .overlayartimage p{
   color: rgb(104, 103, 103);
   position: absolute;
-  top: 36.5em;
+  top: 35.3em;
   font-size: 14px;
   margin-top: 0.5em;
   max-width: 40em;  
@@ -152,7 +152,7 @@
   max-width: 13em;
 }
 .black-area{
-  top: 410em;
+  top: 390em;
 }
 
 
